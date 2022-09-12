@@ -1,5 +1,9 @@
 # Welcome
-So, you've heard about self hosting. Or maybe you have recently realized that the [[ecology of tools]] you are using is exploitative and that it's important to look for alternatives. Or maybe someone you know sent you this resource in order to [[List of problems with tech|convince]] you that it is. Or maybe you stumbled upon this page in a completely different way. Where do you continue from here? This website is an attempt at answering this question. It's a communal effort, incomplete and a work in progress, but aims to give readers an entry point into ways of avoiding the [[cloud]] and to take (more) control of their own digital infrastructures.
+So, you've heard about self hosting. Or maybe you want to opt out of the [[ecology of tools]] you are currently using and you are trying to find out more about alternatives. Or maybe someone sent this website to you in order to [[List of problems with tech|convince]] you that you should. Or maybe you stumbled upon this page in a completely different way. Regardless of where you stand at the moment, this website aims to pick you up and give you pointers of where to continue from here.
+
+**TL;DR: The [[cloud]] is bad, but there are ways out and this website is supposed to help with that**
+
+Everything on this website is a communal effort, some things are outdated, incomplete or work in progress. If you would like to contribute something, you should send us as a message!
 
 
 # The Problem
@@ -17,11 +21,13 @@ So, you've heard about self hosting. Or maybe you have recently realized that th
 - What tools can you replace?
 
 ### What can self hosting do for you?
+- as an individual
+- as a group!
+
 ### What can self hosting *not* do for you?
 
 
 # Practical Guide
-
 ### Prep: What I wish I had known before I got into self hosting
  - Maintenance, dedicated person working on it
 
@@ -47,4 +53,4 @@ So, you've heard about self hosting. Or maybe you have recently realized that th
 - (Trans)Feminist Server Manifesto
 - Permacomputing Wiki
 - homebrewserver.club
-- elephant in the room
+- Elephant in the room
