@@ -1,4 +1,3 @@
-paul
 
 - they want something printed maybe?
 	- how to get people on the site?
