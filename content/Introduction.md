@@ -12,7 +12,7 @@ Everything on this website is a communal effort, some things are outdated, incom
 - expense
 	- we don't realize the amount of work that is behind dropbox or google doc because it's hidden
 - as permacomputing point out, from ecological point of view, no ethical computing
-- But practical 
+- But practical
 
 
 # Self Hosting as a Solution
