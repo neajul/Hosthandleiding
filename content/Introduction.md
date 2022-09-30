@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome
 So, you've heard about self hosting. Or maybe you want to opt out of the [[ecology of tools]] you are currently using and you are trying to find out more about alternatives. Or maybe someone sent this website to you in order to [[List of problems with tech|convince]] you that you should. Or maybe you stumbled upon this page in a completely different way. Regardless of where you stand at the moment, this website aims to pick you up and give you pointers of where to continue from here.
 
 **TL;DR: The [[cloud]] is bad, but there are ways out and this website is supposed to help with that**
