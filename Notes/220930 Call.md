@@ -1,0 +1,5 @@
+- text kürzen
+- anleitung schreiben
+- aufbau museumancht
+- aufbau OBA
+	- was brauchen wir
