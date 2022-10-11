@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/Introduction.md",
+            "file": "content/logbook.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Introduction.md",
+                "file": "content/logbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Introduction.md",
+                "file": "content/logbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Introduction.md"
+                "file": "content/logbook.md"
               }
             }
           }
@@ -129,5 +129,11 @@
     "collapsed": true
   },
   "active": "bbf155d181b3af55",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/Introduction.md",
+    "content/ecology of tools.md",
+    "content/logbook.md",
+    "Notes/220930 Call Paul Lukas.md",
+    "Notes/220929 Call Maro Pebo.md"
+  ]
 }
