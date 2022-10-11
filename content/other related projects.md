@@ -1,3 +1,4 @@
 - https://homebrewserver.club/
 - https://areyoubeingserved.constantvzw.org/Summit_afterlife.xhtml
 - https://www.transcareplus.org/transfeminist-care-manifesto
+- https://permacomputing.net/

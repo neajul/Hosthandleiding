@@ -2,3 +2,5 @@
 - domain
 - ip address
 - hosting
+- container/docker
+- on the metal
