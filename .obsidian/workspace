@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/logbook.md",
+            "file": "content/noob questions.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/logbook.md",
+                "file": "content/noob questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/logbook.md",
+                "file": "content/noob questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/logbook.md"
+                "file": "content/noob questions.md"
               }
             }
           }
@@ -132,8 +132,8 @@
   "lastOpenFiles": [
     "content/Introduction.md",
     "content/ecology of tools.md",
-    "content/logbook.md",
+    "Notes/220929 Call Maro Pebo.md",
     "Notes/220930 Call Paul Lukas.md",
-    "Notes/220929 Call Maro Pebo.md"
+    "content/logbook.md"
   ]
 }
