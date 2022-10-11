@@ -7,7 +7,19 @@
 	- gamified learning/habit building
 	- **bite sized**
 
+
+
+# until next time:
+
+- paul will collect things he knows, and collect questions
+  - how do they differ and what does he need
+- lukas writes about what self hosting can do for you, and what this publication is
+- ada writes a story about why hotel mokum is doing it
+
+
+
 **the steps:**
+
 - why self host?
 	- control data
 	- security culture
