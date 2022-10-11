@@ -1,4 +1,5 @@
 - server
+- cloud
 - domain
 - ip address
 - hosting
