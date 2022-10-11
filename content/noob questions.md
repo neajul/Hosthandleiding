@@ -1,0 +1,3 @@
+- you don't need a domain to self-host? 
+	- domain is easier to remember
+	- HTTPS you can do with a domain
