@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bbf155d181b3af55",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "content/noob questions.md",
-            "mode": "source",
-            "source": false
+        "id": "2312a57c93eb26ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbf155d181b3af55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/noob questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -126,6 +134,9 @@
     ],
     "direction": "horizontal",
     "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
   },
   "active": "bbf155d181b3af55",
   "lastOpenFiles": [
