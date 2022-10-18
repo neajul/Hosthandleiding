@@ -1,8 +1,0 @@
-- server
-- cloud
-- domain
-- ip address
-- hosting
-- container/docker
-- on the metal
-- VPN
