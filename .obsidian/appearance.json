@@ -1,4 +1,5 @@
 {
   "baseFontSize": 13,
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "Minimal"
 }

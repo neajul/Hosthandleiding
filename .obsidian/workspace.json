@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2312a57c93eb26ba",
+        "id": "af8e8cd2d4949d20",
         "type": "tabs",
         "children": [
           {
-            "id": "bbf155d181b3af55",
+            "id": "c1d43817b7e1684b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/noob questions.md",
+                "file": "content/2.2 Hardware Considerations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/noob questions.md",
+                "file": "content/2.2 Hardware Considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/noob questions.md",
+                "file": "content/2.2 Hardware Considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/noob questions.md"
+                "file": "content/2.2 Hardware Considerations.md"
               }
             }
           }
@@ -138,13 +138,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bbf155d181b3af55",
+  "active": "c1d43817b7e1684b",
   "lastOpenFiles": [
-    "content/Introduction.md",
-    "content/noob questions.md",
-    "content/ecology of tools.md",
-    "Notes/220929 Call Maro Pebo.md",
-    "Notes/220930 Call Paul Lukas.md",
-    "content/logbook.md"
+    "content/1.1 Problems with the cloud.md",
+    "content/0.3 Related texts, projects and initiatives.md",
+    "content/0.2 Glossary of Terms.md",
+    "content/0.1 About this Publication.md",
+    "content/0 Introduction.md",
+    "content/0 0To Do.md",
+    "content/2.1 Preparation and What to Expect.md",
+    "content/2.2 Hardware Considerations.md",
+    "content/2.4 Sofware Considerations.md",
+    "content/2.3 System Considerations.md"
   ]
 }
