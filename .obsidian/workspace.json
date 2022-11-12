@@ -135,9 +135,6 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "c1d43817b7e1684b",
   "lastOpenFiles": [
     "content/1.1 Problems with the cloud.md",
