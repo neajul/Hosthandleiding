@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/2.2 Hardware Considerations.md",
+                "file": "content/1.1 Problems with the cloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/2.2 Hardware Considerations.md",
+                "file": "content/1.1 Problems with the cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/2.2 Hardware Considerations.md",
+                "file": "content/1.1 Problems with the cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/2.2 Hardware Considerations.md"
+                "file": "content/1.1 Problems with the cloud.md"
               }
             }
           }
@@ -137,15 +137,15 @@
   },
   "active": "c1d43817b7e1684b",
   "lastOpenFiles": [
-    "content/1.1 Problems with the cloud.md",
     "content/0.3 Related texts, projects and initiatives.md",
+    "content/1.1 Problems with the cloud.md",
+    "content/2.4 Sofware Considerations.md",
+    "content/2.3 System Considerations.md",
+    "content/2.2 Hardware Considerations.md",
+    "content/2.1 Preparation and What to Expect.md",
+    "content/1.2 What is self hosting.md",
     "content/0.2 Glossary of Terms.md",
     "content/0.1 About this Publication.md",
-    "content/0 Introduction.md",
-    "content/0 0To Do.md",
-    "content/2.1 Preparation and What to Expect.md",
-    "content/2.2 Hardware Considerations.md",
-    "content/2.4 Sofware Considerations.md",
-    "content/2.3 System Considerations.md"
+    "content/0 Introduction.md"
   ]
 }
