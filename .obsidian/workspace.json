@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/0.2 Glossary of Terms.md",
+                "file": "content/2.3 System Considerations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/0.2 Glossary of Terms.md",
+                "file": "content/2.3 System Considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/0.2 Glossary of Terms.md",
+                "file": "content/2.3 System Considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/0.2 Glossary of Terms.md"
+                "file": "content/2.3 System Considerations.md"
               }
             }
           }
@@ -138,8 +138,8 @@
   },
   "active": "b05bcb36b95a0f88",
   "lastOpenFiles": [
-    "content/3.1 Practical Guides and configs.md",
     "content/0.2 Glossary of Terms.md",
+    "content/3.1 Practical Guides and configs.md",
     "content/3.2 Usecases and accounts.md",
     "content/3.3 Security Culture and concerns.md",
     "content/2.4 Sofware Considerations.md",
