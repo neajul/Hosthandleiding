@@ -1,1 +1,4 @@
-- Ada will try to follow the guide
+- Ada will try to follow the DietPi Guide
+- Lukas will finishing the DietPi and SSH guides
+- Paul will write on the gloassary
+- Ada
