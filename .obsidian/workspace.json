@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e238827ed9f61526",
+        "id": "af8e8cd2d4949d20",
         "type": "tabs",
         "children": [
           {
-            "id": "b05bcb36b95a0f88",
+            "id": "c1d43817b7e1684b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/2.3 System Considerations.md",
+                "file": "content/2.2 Hardware Considerations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/2.3 System Considerations.md",
+                "file": "content/2.2 Hardware Considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/2.3 System Considerations.md",
+                "file": "content/2.2 Hardware Considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/2.3 System Considerations.md"
+                "file": "content/2.2 Hardware Considerations.md"
               }
             }
           }
@@ -133,10 +133,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "b05bcb36b95a0f88",
+  "active": "c1d43817b7e1684b",
   "lastOpenFiles": [
     "content/2.2 Hardware Considerations.md",
     "content/2.3 System Considerations.md",
@@ -147,6 +146,11 @@
     "content/3.3 Security Culture and concerns.md",
     "content/2.4 Sofware Considerations.md",
     "3.1 Practical Guides and configs.md",
-    "content/0 Introduction.md"
+    "content/0 Introduction.md",
+    "content/0.2 Glossary of Terms.md",
+    "content/0.3 Related texts, projects and initiatives.md",
+    "content/1.1 Problems with the cloud.md",
+    "content/1.2 What is self hosting.md",
+    "content/2.4 Sofware Considerations.md"
   ]
 }
