@@ -4,3 +4,5 @@
 - Paul will write on the gloassary
 - Lukas will finishing the DietPi and SSH guides
 - Then Lukas will continue writing on section 2!
+
+> ⚠️ Next meeting: Thursday 24.11., 16:30 Amsterdam Time
