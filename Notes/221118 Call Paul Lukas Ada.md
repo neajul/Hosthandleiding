@@ -1,0 +1,1 @@
+- Ada will try to follow the guide
