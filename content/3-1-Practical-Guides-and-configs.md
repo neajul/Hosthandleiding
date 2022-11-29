@@ -206,19 +206,72 @@ To run DietPi, simply unplug the flash drive you used for installing DietPi, and
 ## 3.1.3 Setting up Docker
 ### 3.1.3a Install Docker
 
-```
+```sh
 # dietpi-software install 162
 ```
 
 ### 3.1.3b Set up a Docker Network
 
-```
+```sh
 > # docker create network reverse-proxy
 ```
 
 ## 3.1.4 Setting up a Reverse Proxy
 - swag (preconfigured set & forget) v nginx-proxy-manager (convenient web interface) ((recommended))
 	- if only using linuxserver.io containers that have preconfigured swag configs, use swag, for a more general use case and having a webinterface use nginx-proxy-manager
+[we get the quick config from here](https://nginxproxymanager.com/guide/#quick-setup)
+
+```sh
+$ mkdir /apps/reverse-proxy && touch /apps/reverse-proxy/docker-compose.yml
+```
+
+
+```yml
+version: '3'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+```
+
+But we would like to change a few things to make our lives easier in the future:
+
+```yml
+version: '3'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - /apps/reverse-proxy/data:/data
+      - /apps/reverse-proxy/letsencrypt:/etc/letsencrypt
+    networks:
+      - reverse-proxy
+networks:
+  reverse-proxy:
+    external: yes
+```
+
+Here we added the paths for our app data. The reverse proxy doesnt use much space and needs to be fast so we make sure to use the fastest storage. (Remember, /apps is faster than /db which is faster than /data)
+Now we can spin up our reverse proxy and access it in a web-browser:
+
+Make sure we're in the folder 
+```sh
+# docker-compose up -d
+
+
+
 ## 3.1.5 Connecting a domain
 ### 3.1.5a Buying a domain
 - We recommend Njalla.
@@ -240,3 +293,4 @@ To run DietPi, simply unplug the flash drive you used for installing DietPi, and
 		- *.domain.tld, domain.tld
 	- use this cert for all containers using subdomains:
 		- app.domain.tld
+### 
