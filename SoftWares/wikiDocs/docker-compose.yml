@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  wikidocs:
+    image: reyemxela/wikidocs
+    environment:
+      - PUID=1000
+      - PGID=1000
+#   ports:
+#     - 80:80
+    volumes:
+      - ./documents:/documents
+      - ./config:/config
+    networks:
+      - reverse-proxy
+networks:
+  reverse-proxy:
+    external: yes
