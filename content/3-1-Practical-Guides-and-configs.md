@@ -201,4 +201,14 @@ To run DietPi, simply unplug the flash drive you used for installing DietPi, and
 
 ## 3.1.5 Connecting a domain
 ### 3.1.5a Buying a domain
+- We recommend Njalla.
+	- ==Why do we do that==
+	- ethics
+	- practicality
+	- downside: only crypto and paypal!
+		- you can use something else as well
+		- ==what else to use?==
+#### If you use Njalla
+- make a njalla account
+- search what you want, pay for it
 ### 3.1.5b Connect your reverse proxy to your domain provider
