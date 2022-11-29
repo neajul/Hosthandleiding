@@ -193,12 +193,32 @@ To run DietPi, simply unplug the flash drive you used for installing DietPi, and
 
 ## 3.1.2 Setting up SSH
 
+- on server
+	- touch /boot/ssh
+	- dietpi.txt
+	- mouse & keyboard
+- on client
+	- terminal (mac & linux)
+		- dropbear vs openssh
+	- putty (windows)
+	- powershell (windows pro)
+
 ## 3.1.3 Setting up Docker
 ### 3.1.3a Install Docker
+
+```
+# dietpi-software install 162
+```
+
 ### 3.1.3b Set up a Docker Network
 
-## 3.1.4 Setting up a Reverse Proxy
+```
+> # docker create network reverse-proxy
+```
 
+## 3.1.4 Setting up a Reverse Proxy
+- swag (preconfigured set & forget) v nginx-proxy-manager (convenient web interface) ((recommended))
+	- if only using linuxserver.io containers that have preconfigured swag configs, use swag, for a more general use case and having a webinterface use nginx-proxy-manager
 ## 3.1.5 Connecting a domain
 ### 3.1.5a Buying a domain
 - We recommend Njalla.
@@ -208,6 +228,7 @@ To run DietPi, simply unplug the flash drive you used for installing DietPi, and
 	- downside: only crypto and paypal!
 		- you can use something else as well
 		- ==what else to use?==
+			- [[3-1b-dns-providers-supported-ootb-npm.md]] 
 #### If you use Njalla
 - make a njalla account
 - search what you want, pay for it
