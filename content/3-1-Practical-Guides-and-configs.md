@@ -233,3 +233,10 @@ To run DietPi, simply unplug the flash drive you used for installing DietPi, and
 - make a njalla account
 - search what you want, pay for it
 ### 3.1.5b Connect your reverse proxy to your domain provider
+- SWAG, not sure?
+- Nginx-Proxy-Manager:
+	- get njalla API
+	- get wildcard ssl
+		- *.domain.tld, domain.tld
+	- use this cert for all containers using subdomains:
+		- app.domain.tld
