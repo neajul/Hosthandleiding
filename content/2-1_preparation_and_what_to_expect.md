@@ -4,6 +4,8 @@ It's a lot of work
 
 sys admin, dedicated person
 
+commandline! demystify it!!
+
 Things will go wrong. Self-hosting is an [[awkward]] practice. See:
 
 https://areyoubeingserved.constantvzw.org/Summit_afterlife.xhtml

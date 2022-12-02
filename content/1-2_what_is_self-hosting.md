@@ -1,24 +1,16 @@
 # 1-2 What is self-hosting
 
-At this point, it's probably good to explain what a [[0-2_glossary_of_terms#Server|server]] is in a few words. In very simple terms, it is a computer that *serves* information to a user (or *client*) machine. The resulting relationship is often called a *server-client relationship*.
+At this point, it's probably good to explain what a [[0-2_glossary_of_terms#Server|server]] is in a few words. 
 
-When you visit a website, somewhere in the world there is a computer that has the website stored on it—the *server*. When you enter the URL into your browser, you are being connected to this computer, and it will send you back (*serve* you) the content of the website, which is then displayed in your browser.
+A server is a computer that *serves* information to a user (or *client*) machine. When you visit a website, somewhere in the world there is a computer that has the website stored on it—that computer is one examle of what we call a server. When you enter the URL into your browser, you are being connected to this computer, and it will send you back (*serve* you) the content of the website, which is then displayed in your browser.
 
 Similarly, if you edit a Google Docs file with someone else, somewhere in the world there is a computer that has the content of this document saved on it. Every time you make a change, it's sent to this server, which then sends (*serves*) the changes you just made to all the other users in real time, making sure everyone is always in sync and that everyone can see what the other people are up to.
 
-When people say the cloud is just someone else's computer, this is what they mean: the cloud is a bunch of servers that keep everyone connected. In the case of big tech, these servers are part of huge data centers, incredibly complex operations that exist in specifically designed buildings that use the energy equivalent of small cities. This scale is necessary because these companies serve millions of people simultaneously, all over the world, who expect things to happen immediately and without a moment of delay. 
+Obviously all of this is a gross oversimplification, but when people say *the cloud is just someone else's computer*, this is what they mean: the cloud is a bunch of servers that keep everyone connected. In the case of big tech, these servers are part of huge data centers, incredibly complex operations that exist in specifically designed buildings that use the energy equivalent of small cities. This scale is "necessary" because these companies serve millions of people simultaneously, all over the world, who expect things to happen immediately and without a moment of delay or a second of downtime.
 
-If the cloud is someone else's computer, self-hosting is moving it to your own computer. At least theoretically, any computer can function as a server and while it requires some technical expertise, time and effort, it's possible to set up a small server in your own home or work place that can replace a large part of these commercial cloud services in your workflow. Since you most likely don't need to serve millions of people at the same time, the requirements for this can be surprisingly low. If you want to supply file sharing, collaborative writing, video calling and a shared calendar for yourself and the people in your surroundings, chances are that an old laptop that you or someone you have lying around would be up to the task.
-
-
+If the cloud is someone else's computer, self-hosting is moving it to your own computer. At least theoretically, any computer can function as a server and while it requires some technical know-how, time and effort, it's possible to set up a small server in your own home or work place that can replace the cloud, either partially or comepletely. Since you most likely don't need to serve millions of people at the same time, the requirements for this can be surprisingly low. If you want to supply file sharing, collaborative writing, video calling and a shared calendar for yourself and the people in your surroundings (let's assume this is up to 15 or 20 people), chances are that an old laptop that you or someone you have lying around would be up to the task.
 
 
-
-
-
-
-
-If the cloud is just someone else's computer, self hosting is saying why does it have to be someone else's computer, why can it not be my own computer.
 - ethically there are a lot of advantages, as we have control over what, how, when where
 - the trade off is effort: self hosting means doing a lot of things that, in the cloud, others do for us for free
 
