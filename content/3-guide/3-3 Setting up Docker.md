@@ -1,4 +1,4 @@
-# 3-1-3 Setting up Docker
+# 3-3 Setting up Docker
 
 ## 3.1.3a Install Docker
 

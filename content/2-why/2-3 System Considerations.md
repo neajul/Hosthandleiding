@@ -14,7 +14,7 @@
 	- while we recommend working with [[0-2 Glossary of Terms#Docker (software)|docker]] it comes with a lot of scripts for [[0-2 Glossary of Terms#On the Metal|on-the-metal]] installs
 	- works for most [[0-2 Glossary of Terms#SBC (Single Board Computer)|SBCs]]
 	- as well as old windows computers
-	- we wrote [[3-1-1 Installing Linux|guide]] for it
+	- we wrote [[3-1 Installing Linux|guide]] for it
 - There are many other systems that can make sense, depending on preference and situation
 	- We recommend Alpine Linux
 	- For advanced users. Since this manual is targeted at beginners to intermediates we don't include a guide for now

@@ -19,7 +19,7 @@
 			- maybe out of scope for this guide but let's jsut say there's no ethical consumption using FIAT either.
 		- you can use something else as well
 		- ==what else to use?==
-			- [[3-1b-dns-providers-supported-ootb-npm.md]] 
+			- [[3-1b-dns-providers-supported-ootb-npm]] 
 #### If you use Njalla
 - make a njalla account
 - search what you want, pay for it

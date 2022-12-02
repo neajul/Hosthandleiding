@@ -1,8 +1,8 @@
-# 3-1-1 Installing Linux
+# 3-1 Installing Linux
 
 There are [[2-3 System Considerations|many different Linux distributions]], which all come with advantages and disadvantages. There is not really a blanket solution for which system you should choose. However, the best way to get into it is to just start, and learn along the way. 
 
-For this guide, we recommend installing [DietPi](https://dietpi.com/). Originally developed as an operating system for the Raspberry Pi, it now supports most Single Board Computers, as well as native PCs. It's very light-weight, meaning that it doesn't take much space and doesn't use a lot of resources like processing power and RAM, ensuring that it will run fine even on slower machines. If you prefer to use another Linux distribution feel free to skip this section and continue at [[3-1-2 Setting up SSH]].
+For this guide, we recommend installing [DietPi](https://dietpi.com/). Originally developed as an operating system for the Raspberry Pi, it now supports most Single Board Computers, as well as native PCs. It's very light-weight, meaning that it doesn't take much space and doesn't use a lot of resources like processing power and RAM, ensuring that it will run fine even on slower machines. If you prefer to use another Linux distribution feel free to skip this section and continue at [[3-2 Setting up SSH]].
 
 ## 3-1-1a Installing DietPi
 
@@ -12,9 +12,9 @@ In order to install DietPi you need a few things:
 
 1. A **working computer** with internet access (from which to prepare the installation)
 2. An *empty or over-writeable* USB drive of minimum 2 GB capacity (to install from)
-3. A (non-Apple) [[2-2 Hardware Considerations|target computer]] on which you want to install DietPi. For this guide, we will also assume that you have access to a screen and a keyboard as well (if you are using an old laptop, the internal screen and keyboard suffice).
+3. A (non-Apple) [[2-2 Hardware considerations|target computer]] on which you want to install DietPi. For this guide, we will also assume that you have access to a screen and a keyboard as well (if you are using an old laptop, the internal screen and keyboard suffice).
 
-> ⚠️ For now, this guide will not include a tutorial on how to install Linux on an old Apple computer. You can read more about this [[2-2 Hardware Considerations#2.2.2a Apple|here]], but the TLDR; is that Apple has made it increasingly difficult to install anything except macOS on their machines. If an old Mac is all you got, there are many tutorial such as this one that you can follow and continue at [[3-1-2 Setting up SSH]].
+> ⚠️ For now, this guide will not include a tutorial on how to install Linux on an old Apple computer. You can read more about this [[2-2 Hardware considerations#2.2.2a Apple|here]], but the TLDR; is that Apple has made it increasingly difficult to install anything except macOS on their machines. If an old Mac is all you got, there are many tutorial such as this one that you can follow and continue at [[3-2 Setting up SSH]].
 
 ### Downloading DietPi (SBC)
 
@@ -178,7 +178,7 @@ You should be presented with a neon-green dialogue asking you to select the vers
 
 Follow the on-screen instructions for the rest of the installation. It will ask you to select your keyboard layout, and the source for the installation (you should only see one possible source if you followed this guide up to here—It should start with `DietPi_` and continue with the version of DietPi you downloaded in the beginning of the tutorial). 
 
-Next you will be asked to select the hard drive that you want to install DietPi on. In many cases you will only see one option here, in case your target computer has multiple hard drives installed, pick the most [[2-2 Hardware Considerations#2.2.2c Storage|appropriate]] one.
+Next you will be asked to select the hard drive that you want to install DietPi on. In many cases you will only see one option here, in case your target computer has multiple hard drives installed, pick the most [[2-2 Hardware considerations#2.2.2c Storage|appropriate]] one.
 
 > ⚠️ This will erase all the data on the selected hard drive, so this is a last warning to be sure that you actually want to erase this drive!
 

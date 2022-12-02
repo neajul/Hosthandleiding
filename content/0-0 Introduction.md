@@ -30,15 +30,16 @@ This publication aims to pick you up wherever it is that you are right now, and 
 	- [[1-2 What is self-hosting#1-2-3 List of things that can be replaced by self-hosting|1-2-3 List of things that can be replaced by self hosting]]
 
 ## Level 2: How to Self Host
-- [[2-1 Preparation and What to Expect]]
-- [[2-2 Hardware Considerations]]
+- [[2-1 Preparation and what to expect]]
+- [[2-2 Hardware considerations]]
 - [[2-3 System Considerations]]
 - [[2-4 Sofware Considerations]]
 
-## Level 3: Self Hosting in Action
-- 3-1 Practical Guides and configs
-	- [[3-1-1 Installing Linux]]
-	- [[3-1-2 Setting up SSH]]
-	- [[3-1-3 Setting up Docker]]
-- [[3-2 Usecases and accounts]]
-- [[3-3 Security Culture and concerns]]
+## Level 3: A Practical Guide to Self Hosting
+- [[3-1 Installing Linux]]
+- [[3-2 Setting up SSH]]
+- [[3-3 Setting up Docker]]
+
+## Level 4: Self Hosting IRL
+- [[4-1 Usecases and accounts]]
+- [[4-2 Security culture and concerns]]
