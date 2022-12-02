@@ -25,9 +25,9 @@ This publication aims to pick you up wherever it is that you are right now, and 
 ## Level 1: Why Self Host
 - [[1-1 Problems with the cloud]]
 - [[1-2 What is self-hosting]]
-	- [[1-2 What is self-hosting#1.2.1 What are the benefits of Self Hosting?]]
-	- [[1-2 What is self-hosting#1 2 2 What are the challenges of Self Hosting|1-2-2 What are the challenges of Self Hosting]]
-	- [[1-2 What is self-hosting#1 2 3 List of things that can be replaced by self hosting|1-2-3 List of things that can be replaced by self hosting]]
+	- [[1-2 What is self-hosting#1-2-1 What are the benefits of self-hosting?|1-2-1 What are the benefits of self-hosting?]]
+	- [[1-2 What is self-hosting#1-2-2 What are the challenges of self-hosting?|1-2-2 What are the challenges of self-hosting?]]
+	- [[1-2 What is self-hosting#1-2-3 List of things that can be replaced by self-hosting|1-2-3 List of things that can be replaced by self hosting]]
 
 ## Level 2: How to Self Host
 - [[2-1 Preparation and What to Expect]]
