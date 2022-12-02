@@ -1,10 +1,11 @@
-# 1.1 Problems with the so-called cloud
-## 1.1.1 What is a cloud?
+# 1-1 Problems with the cloud
+
+## 1-1-1 What is a cloud?
 Today, in many professions we are dependent on tools that work in the [[0.2 Glossary of Terms#cloud|cloud]]. This becomes especially true when we work in teams. We have to write collaboratively, share files, conduct video calls and invite each other to calendar events. What might have seemed almost impossible a few decades ago, has become so simple that it has become almost invisible to us as users: Right click, share, send, and it's done.
 
 What a lot of us are not always aware of is that this seamless experience is enabled by an expansive network of digital and physical infrastructure that runs around the clock for our convenience. Or, in more simple terms: For us to collaborate in the cloud, somewhere in the world there is a very fancy, and very fast computer that facilitates this collaboration. Usually these computers are located in vast data centers around the world, many of which are controlled by a small number of hard- and software conglomerates, and which have come to use a significant part of the world's energy production.
 
-## 1.1.2 Why is that a problem?
+## 1-1-2 Why is that a problem?
 As mentioned above, this infrastructure is incredibly expensive from an energy usage/environmental point of view. Even though many data centers around the world are run with 100% renewable energies, in many cases they actually use up large parts of the capacities of renewable energy sources, while the rest of the power grid remains powered through the use of fossil fuels.
 
 As mentioned above, large parts of the cloud are run by large corporations like Amazon, Apple, Google and the like. Companies (and monopolies) with histories of 
@@ -30,7 +31,7 @@ Most cloud services give the users little to no control about the way our files 
 - users have to trust that any sensitive data is handled appropriately and have no control over security measures taken by these companies. Large corporations are hacked all the time, data is leaked all the time.
 - As was the case with Twitter in 2022, companies can change owners or business models within a few weeks, potentially limiting access to your data or forcing you into a new payment plan. There is no stability in these (often very young!) companies.
 
-## 1.1.3 Some notes on expense
+## 1-1-3 Some notes on expense
 As mentioned above, running services in the cloud is computationally expensive. All data is constantly fragmented, distributed and redundant, so that even if a whole data center were to break down, the users won't notice. But the cost (in compute power, bandwidth, energy consumption) of running the cloud is hidden behind the smooth interfaces that we as end users interact with: the edges are round and everything seems light, immediate, easy, immaterial.
 
 As a result of this, our notion of the expense of the cloud is warped. In other words, we are spoiled: any amount of *friction*—of something not happening immediately, or something not working—is perceived as an inconvenience, perceived as a divergence from the smooth *norm*. It is from this perspective that an effort like self-hosting, which almost always entails a long, continuous process full of friction, can seem unfeasible or unpractical, while in reality it is the status quo that is unsustainable.

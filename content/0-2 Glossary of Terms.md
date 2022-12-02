@@ -1,3 +1,5 @@
+# 0-2 Glossary of Terms
+
 ## On the Metal
 
 ==TBD==

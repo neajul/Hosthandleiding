@@ -1,8 +1,9 @@
-# Software Considerations
-## 2.4.1 Containers vs. on the Metal
+# 2-4 Sofware Considerations
+
+## 2-4-1 Containers vs. on the Metal
 - Containers vs. on the Metal
 - Cool lists of software
-## 2.4.2 "3-2-1" Backup Rule
+## 2-4-2 The *3-2-1* Backup Rule
 - ==Backup!==
 
 ==Can we make a flowchart?==

@@ -1,5 +1,7 @@
-## 3.1.5 Connecting a domain
-### 3.1.5a Buying a domain
+# 3-1-5 Going Live
+
+## 3-1-5a Connecting a domain
+### Buying a domain
 - We recommend Njalla.
 	- ==Why do we do that==
 	- ethics
@@ -21,7 +23,8 @@
 #### If you use Njalla
 - make a njalla account
 - search what you want, pay for it
-### 3.1.5b Connect your reverse proxy to your domain provider
+
+## 3-1-5b Connect your reverse proxy to your domain provider
 - SWAG, not sure?
 - Nginx-Proxy-Manager:
 	- get njalla API

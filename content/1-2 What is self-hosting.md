@@ -1,4 +1,4 @@
-# 1.2 What is self-hosting
+# 1-2 What is self-hosting
 
 At this point, it's probably good to explain what a [[0.2 Glossary of Terms#Server|server]] is in a few words. In very simple terms, it is a computer that *serves* information to a user (or *client*) machine. The resulting relationship is often called a *server-client relationship*.
 
@@ -24,7 +24,7 @@ If the cloud is just someone else's computer, self hosting is saying why does it
 
 Nothing is perfect: permacomputing, computing in gernal is not sustainable from an ecological point of view. But it could be (slightly) betterl
 
-## 1.2.1 What are the benefits of Self Hosting?
+## 1-2-1 What are the benefits of self-hosting?
 
 As previously discussed, self-hosting comes with a set of ethical and practical advantages.
 
@@ -36,7 +36,7 @@ As previously discussed, self-hosting comes with a set of ethical and practical 
 - It allows users to minimize their ecological foot print through lower energy usage and the recylcing of old hardware
 - It makes them less dependent on companies that are [[1.1 Problems with the cloud#1.1.2 Why is that a problem?|diametrically opposed to their ethical values]].
 
-## 1.2.2. What are the challenges of Self Hosting?
+## 1-2-2 What are the challenges of self-hosting?
 
 But while 
 
@@ -51,6 +51,6 @@ But while
 - Big corporations only make things seem frictionless
 - This has warped out perception of what a seemless experience is
 
-## 1.2.3 List of things that can be replaced by self hosting
+## 1-2-3 List of things that can be replaced by self-hosting
 
 ==Need to write this list!==

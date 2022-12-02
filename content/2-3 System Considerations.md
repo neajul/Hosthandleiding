@@ -1,4 +1,4 @@
-# System considerations
+# 2-3 System Considerations
 
 - What is Linux and why are we using it?
 - What are cool distributions
