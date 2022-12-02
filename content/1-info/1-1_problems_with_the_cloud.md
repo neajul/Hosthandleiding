@@ -1,7 +1,7 @@
 # 1-1 Problems with the cloud
 
 ## 1-1-1 What is a cloud?
-Today, in many professions we are dependent on tools that work in the [[0-2 Glossary of Terms#Cloud]]. This becomes especially true when we work in teams. We have to write collaboratively, share files, conduct video calls and invite each other to calendar events. What might have seemed almost impossible a few decades ago, has become so simple that it has become almost invisible to us as users: Right click, share, send, and it's done.
+Today, in many professions we are dependent on tools that work in the [[0-2_glossary_of_terms#Cloud]]. This becomes especially true when we work in teams. We have to write collaboratively, share files, conduct video calls and invite each other to calendar events. What might have seemed almost impossible a few decades ago, has become so simple that it has become almost invisible to us as users: Right click, share, send, and it's done.
 
 What a lot of us are not always aware of is that this seamless experience is enabled by an expansive network of digital and physical infrastructure that runs around the clock for our convenience. Or, in more simple terms: For us to collaborate in the cloud, somewhere in the world there is a very fancy, and very fast computer that facilitates this collaboration. Usually these computers are located in vast data centers around the world, many of which are controlled by a small number of hard- and software conglomerates, and which have come to use a significant part of the world's energy production.
 
@@ -26,7 +26,7 @@ Most cloud services give the users little to no control about the way our files 
 - users can't edit or access their files and documents when they are not connected to the internet
 - users don't know where files are physically saves, or how to recover them when they are lost
 - users can't easily switch to another service and take their documents, files and data with them
-- users have to pay monthly fees in order to be allowed to keep accessing their data (see: [[0-2 Glossary of Terms#Software as a Service (SaaS)]])
+- users have to pay monthly fees in order to be allowed to keep accessing their data (see: [[0-2_glossary_of_terms#Software as a Service (SaaS)]])
 - if there is an issue (like a lost/accidentally deleted file), there is no customer service to help users
 - users have to trust that any sensitive data is handled appropriately and have no control over security measures taken by these companies. Large corporations are hacked all the time, data is leaked all the time.
 - As was the case with Twitter in 2022, companies can change owners or business models within a few weeks, potentially limiting access to your data or forcing you into a new payment plan. There is no stability in these (often very young!) companies.

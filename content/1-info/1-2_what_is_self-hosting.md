@@ -1,6 +1,6 @@
 # 1-2 What is self-hosting
 
-At this point, it's probably good to explain what a [[0-2 Glossary of Terms#Server|server]] is in a few words. In very simple terms, it is a computer that *serves* information to a user (or *client*) machine. The resulting relationship is often called a *server-client relationship*.
+At this point, it's probably good to explain what a [[0-2_glossary_of_terms#Server|server]] is in a few words. In very simple terms, it is a computer that *serves* information to a user (or *client*) machine. The resulting relationship is often called a *server-client relationship*.
 
 When you visit a website, somewhere in the world there is a computer that has the website stored on it—the *server*. When you enter the URL into your browser, you are being connected to this computer, and it will send you back (*serve* you) the content of the website, which is then displayed in your browser.
 
@@ -34,7 +34,7 @@ As previously discussed, self-hosting comes with a set of ethical and practical 
 - It often allows to build systems that are more closely adapted to their specific needs
 - In the process, users will learn a lot about the way servers and digital infrastructures work, making them more adapt at avoiding mistakes and fixing problems
 - It allows users to minimize their ecological foot print through lower energy usage and the recylcing of old hardware
-- It makes them less dependent on companies that are [[1-1 Problems with the cloud#1-1-2 Why is that a problem?|diametrically opposed to their ethical values]].
+- It makes them less dependent on companies that are [[1-1_problems_with_the_cloud#1-1-2 Why is that a problem?|diametrically opposed to their ethical values]].
 
 ## 1-2-2 What are the challenges of self-hosting?
 

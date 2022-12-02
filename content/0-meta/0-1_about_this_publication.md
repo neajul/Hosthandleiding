@@ -1,4 +1,4 @@
-# About the Self Hosting Manual
+# 0-1 About the Self Hosting Manual
 
 This publication aims to give individuals and small groups and collectives an entry point to start self-hosting (parts of) their digital infrastructure. The first version has been developed as a part of the *Artsformation* program, and funded by Waag NL in Amsterdam.
 
