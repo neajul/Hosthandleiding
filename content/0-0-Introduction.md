@@ -36,7 +36,8 @@ This publication aims to pick you up wherever it is that you are right now, and 
 - [[2.4 Sofware Considerations]]
 
 ## Level 3: Self Hosting in Action
-- [[3.1 Practical Guides and configs]]
+- 3.1 Practical Guides and configs
+	- [[3.1.1 Installing Linux]]
 - [[3.2 Usecases and accounts]]
 - [[3.3 Security Culture and concerns]]
 

@@ -1,5 +1,3 @@
-==we should split this page into sub pages!==
-
 ## 3.1.1 Installing Linux
 
 There are [[2.3 System Considerations|many different Linux distributions]], which all come with advantages and disadvantages. There is not really a blanket solution for which system you should choose. However, the best way to get into it is to just start, and learn along the way. 
