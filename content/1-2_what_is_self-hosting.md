@@ -32,4 +32,12 @@ But nothing is perfect and life is not fair, and like everything else, self-host
 
 ## 1-2-3 List of things that can be replaced by self-hosting
 
-==Need to write this list!==
+The list of self-hostable services is long and ever-growing. If there is a cloud service provided by some start-up, there is probably a way of hosting something similar yourself. This includes, but is not limited to:
+
+- File hosting, like Dropbox or Google Drive
+- Collaborative office suites, like Google Docs
+- Shared calendars like Google Calendar,
+- Email services like Gmail
+- Web hosting like AWS
+
+But there are much more applications to discover or play around with. You can self-host gaming servers (for example for minecraft), or media servers to connect to your smart TV.
