@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1-1_problems_with_the_cloud.md",
+                "file": "content/1-2_what_is_self-hosting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/1-1_problems_with_the_cloud.md",
+                "file": "content/1-2_what_is_self-hosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/1-1_problems_with_the_cloud.md",
+                "file": "content/1-2_what_is_self-hosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/1-1_problems_with_the_cloud.md"
+                "file": "content/1-2_what_is_self-hosting.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "b05bcb36b95a0f88",
   "lastOpenFiles": [
-    "content/1-2_what_is_self-hosting.md",
-    "content/2-1_preparation_and_what_to_expect.md",
-    "content/0-0 introduction.md",
+    "content/2-2_hardware_considerations.md",
+    "content/2-4_sofware_considerations.md",
+    "content/2-5_privacy_considerations.md",
+    "content/2-3_system_considerations.md",
     "content/0-2_glossary_of_terms.md",
-    "content/1-1_problems_with_the_cloud.md",
-    "content/0-1_about_this_publication.md",
-    "content/4-2_security_culture_and_concerns.md",
-    "content/4-1_usecases_and_accounts.md",
+    "content/0-0 introduction.md",
     "content/0-3_related_texts_projects_and initiatives.md",
-    "content/2-3_system_considerations.md"
+    "content/0-1_about_this_publication.md",
+    "content/3-5_going_live.md",
+    "content/3-2_setting_up_ssh.md"
   ]
 }
