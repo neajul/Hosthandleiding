@@ -15,6 +15,10 @@ Self-hosting can be a more ethical approach to digital infrastructure in your pe
 
 
 
+
+~
+
+
 > In computing, a server is a piece of computer hardware or software (computer program) that provides functionality for other programs or devices, called "clients".
 
 When we talk about self-hosting we mean accessing a computer (the physical device), having the ability to install and run whatever software you want on it, and to make that software and it's functionality availble to **yourself**, and or others via the internet. 
