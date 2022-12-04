@@ -8,24 +8,39 @@ This publication aims to pick you up wherever it is that you are right now, and 
 
 # TL;DR
 
-==We need a TLDR==
+> In computing, a server is a piece of computer hardware or software (computer program) that provides functionality for other programs or devices, called "clients".
 
-- What is a server in two sentences.  
-- In three very clear points, what is the problem with corporate hosting? For example:  
-	- Energy-intensive
-	- We depend on them
-	- You don't have control over the way data and files are handled.
-- Three clear reasons to self-host.   
+When we talk about self-hosting we mean accessing a computer (the physical device), having the ability to install and run whatever software you want on it, and to make that software and it's functionality availble to **yourself**, and or others via the internet. 
+
+Your server can function as a web-server for your personal website. You may also install software that allows you to use it as file sever to store, access and perhaps even edit files collaboratively. 
+
+There are various reasons why you might be considering to host your own online services. Maybe you don't trust big tech. Maybe you are concerned about your digital footprint. Maybe you are just interested in learning something new. Whatever the reason, self-hosting gives you full control over your files and how you bring them online.
+
+
+
+# Related texts, projects and initiatives
+
+- [Homebrew Server Club](https://homebrewserver.club)
+- [Permacomputing Wiki](https://permacomputing.net)
+- [Feminist Server Manifesto](https://areyoubeingserved.constantvzw.org/Summit_afterlife.xhtml)
+- [Trans Feminist Care Manifesto](https://www.transcareplus.org/transfeminist-care-manifesto)
+- [Elephant in the Room](https://constantvzw.org/wefts/elephant.en.html)
+- [Scrapism](https://scrapism.lav.io/)
+
+---
+
+
+
 
 # Table of Contents
 
-## Level 0: Relevant Information
+## Relevant Information
 
 - [[0-1_about_this_publication|0-1 About the Self Hosting Manual]]
 - [[0-2_glossary_of_terms|0-2 Glossary of Terms]]
 - [[0-3_related_texts_projects_and initiatives|0-3 Related texts, projects and initiatives]]
 
-## Level 1: Why Self Host
+## Why Self Host
 
 - [[1-1_problems_with_the_cloud|1-1 Problems with the cloud]]
 - [[1-2_what_is_self-hosting|1-2 What is self-hosting]]
@@ -33,14 +48,14 @@ This publication aims to pick you up wherever it is that you are right now, and 
 	- [[1-2_what_is_self-hosting#1-2-2 What are the challenges of self-hosting?|1-2-2 What are the challenges of self-hosting?]]
 	- [[1-2_what_is_self-hosting#1-2-3 List of things that can be replaced by self-hosting|1-2-3 List of things that can be replaced by self hosting]]
 
-## Level 2: How to Self Host
+## Hardware and Software Considerations
 
 - [[2-1_preparation_and_what_to_expect|2-1 Preparation and what to expect]]
 - [[2-2_hardware_considerations|2-2 Hardware considerations]]
 - [[2-3_system_considerations|2-3 System Considerations]]
 - [[2-4_sofware_considerations|2-4 Sofware Considerations]]
 
-## Level 3: A Practical Guide to Self Hosting
+## How to Self-Host
 
 - [[3-1_installing_linux|3-1 Installing Linux]]
 - [[3-2_setting_up_ssh|3-2 Setting up SSH]]

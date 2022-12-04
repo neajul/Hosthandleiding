@@ -175,4 +175,6 @@ An **IP address** (short for **Internet Protocol address**) is a label which is 
 
 Since such numbers are difficult to communicate, IP addresses are usually written as a set of numbers in a given order. Devices using IP addresses use the [internet protocol](https://simple.wikipedia.org/wiki/Internet_Protocol "Internet Protocol") to communicate.
 
+## Production Ready
 
+When we refer to an environment being production-ready we mean. That the server and the software that you installed on it runs, is backed-up, stable, maintainable and that it satisfies the needs for whatever you are making on a daily basis. 

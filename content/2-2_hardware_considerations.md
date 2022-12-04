@@ -22,7 +22,7 @@ With both of these aspects there are further considerations to take into account
 - 
 
 ## 2-2-2 New or Used Hardware
-It takes a lot of energy to build computers and as such buying new hardware has a big impact on the environment. Even the most energy efficient new computer will not be able to offset the amount of energy that had to be used in its production. As such, we strongly encourage everyone to consider used hardware wherever possible! Using a used laptop will always be more environmentally friendly than a new Raspberry Pi!
+It takes a lot of energy to build computers and buying new hardware has a big impact on the environment. Even the most energy efficient new computer will not be able to offset the amount of energy that had to be used in its production. We strongly encourage everyone to consider used hardware wherever possible. A used laptop will always be more environmentally friendly than a new Raspberry Pi!
 
 Depending on where you live, you should be able to find old laptops on used marketplaces for cheap to almost-free.
 
@@ -34,9 +34,12 @@ If you do have an Apple computer which you aim to install Linux on, there are ma
 ### 2-2-2c Storage
 Whether you are using an old laptop or SBC, you probably need to add some additional storage. We strongly recommend setting up a so-called RAID configuration. In very simplified terms this means that you use two hard drives which are perfect copies of each other, so that in case one of your hard drives fails (which it will, given enough time!), you don't lose any data. Additionally, you [[2-4_sofware_considerations#2-4-2 *3-2-1* Backup Rule|might want to get]] an external backup service.
 
-> ⚠️ While we recommend buying used hardware wherever possible, we don't recommend this with hard drives. The longer a hard drive is in use, the more likely it is to fail. With used hard drives, it's difficult to know how much life they have left in them. There is also a chance that the second hard drives you find online have been used in crypto mining at some point, further increasing the likelihood of failure in the near future.
+> [!INFO]
+> While we recommend buying used hardware wherever possible, we don't recommend this with hard drives. 
+> 
+> The longer a hard drive is in use, the more likely it is to fail. With used hard drives, it's difficult to know how much life they have left in them. There is also a chance that the second hard drives you find online have been used in crypto mining at some point, further increasing the likelihood of failure in the near future.
 
-Many Single Board Computers run on SD cards by default. SD cards will decrease with every read/write operation and are not suitable mediums for a production-ready machine! If you want to use a single board computer, make sure you get additional storage to work with.
+Many Single Board Computers run on SD cards by default. SD cards will decrease with every read/write operation and are not suitable mediums for a [[production-ready]] machine! If you want to use a single board computer, make sure you get additional storage to work with.
 
 ==something something SSD plus two HDDs, or something similar==
 
