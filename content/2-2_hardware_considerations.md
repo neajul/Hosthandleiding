@@ -28,8 +28,9 @@ It takes a lot of energy to build computers and buying new hardware has a big im
 
 ### 2-2-2a Apple
 
-Most 
-While it's certainly possible to install Linux on an old Apple computer like an old MacBook that you or someone you know might have lying around, Apple has complicated this process significantly (basically: the newer your MacBook, the more hurdles you will have to overcome). For the purpose of this guide, we will assume that you have access to an old Windows or Linux computer, as these are much easier and cheaper to come buy than old Apple computers.
+While it's certainly possible to install Linux on an old Apple computer like an old MacBook, Apple has complicated this process significantly (basically: the newer your MacBook, the more hurdles you will have to overcome). Because the process changes so much depending on your model, we currently have not included a manual for how to install Linux on old Apple computers. 
+
+For the purpose of this guide, we will assume that you have access to an old Windows or Linux computer, as these are much easier and cheaper to come buy than old Apple computers.
 
 If you do have an Apple computer which you aim to install Linux on, there are many guides such as [this one](https://linuxnewbieguide.org/how-to-install-linux-on-a-macintosh-computer/) which will walk you through the installation process. After the installation process is complete, you should be able to follow the guides in this manual as usual.
 
