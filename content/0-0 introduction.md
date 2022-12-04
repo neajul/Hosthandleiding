@@ -8,6 +8,13 @@ This publication aims to pick you up wherever it is that you are right now, and 
 
 # TL;DR
 
+Today, we use more and more cloud services in our daily lives. These are often run by software companies with questionable ethical integrity. They often lock us in walled gardens and limit our agency as users. Our internet and technology usage has devastating consequences for the environment.
+
+Self-hosting can be a more ethical approach to digital infrastructure in your personal or professional life. Most cloud services can be replaced with consumer hardware, such as an old laptop that is set up as a server. It requires some technical know-how, but most of the information is freely available and much can be learned along the way.
+
+
+
+
 > In computing, a server is a piece of computer hardware or software (computer program) that provides functionality for other programs or devices, called "clients".
 
 When we talk about self-hosting we mean accessing a computer (the physical device), having the ability to install and run whatever software you want on it, and to make that software and it's functionality availble to **yourself**, and or others via the internet. 
