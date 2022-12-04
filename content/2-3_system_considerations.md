@@ -20,3 +20,26 @@
 	- For advanced users. Since this manual is targeted at beginners to intermediates we don't include a guide for now
 - Installing Linux on mac
 	-
+
+
+
+router access or something like zerotier?
+
+
+
+
+if flowchart; then begin something like this should be considered as steps:
+- Storage considerations
+	- space vs speed vs cost
+		- 5400 < 7200 < ssd < nvme
+	- connections
+		- usb 2 < usb 3/thunderbolt < sata < m2 (pcie3) < m2 (pcie4)
+	- root, database, data
+		- / needs fastest
+		- /apps has configs,
+			- can be same as / but with versioning it is nice to put on separate subvolume/dataset/partition/
+		- /db second fastest
+		- /data needs the most space
+	- RAID?
+		- RAID1 (mirroring) is good for redundancy
+		- doubles drive cost

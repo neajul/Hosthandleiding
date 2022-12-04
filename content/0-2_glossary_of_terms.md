@@ -3,6 +3,7 @@
 ## On the Metal
 
 ==TBD==
+On the 
 
 ## Booting
 
@@ -95,7 +96,7 @@ Examples of command line operating systems are UNIX and Disk Operating System (D
 
 A means of interacting with a [computer program](https://simple.wikipedia.org/wiki/Computer_program "Computer program") where the user (or client) issues commands to the program in the form of successive lines of text (command lines).
 
-##  Text Terminal
+## Text Terminal
 
 A _text terminal_, or often just _terminal_ (sometimes _text console_) is a serial computer interface for text entry and display. Information is presented as [an array of pre-selected formed characters](https://en.wikipedia.org/wiki/Text_mode "Text mode"). When such devices use a video display such as a [cathode-ray tube](https://en.wikipedia.org/wiki/Cathode-ray_tube "Cathode-ray tube"), they are called a "[video display unit](https://en.wikipedia.org/wiki/Video_display_unit "Video display unit")" or "visual display unit" (VDU) or "video display terminal" (VDT
 
