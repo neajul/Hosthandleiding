@@ -1,9 +1,9 @@
-# 2-2 Hardware considerations
+# Hardware
 
 > **TL;DR**
 > Basically, any computer that you have previously used as a workstation (for example, an old laptop) can become a server. If it doesn't have an Ethernet port, get an adapter (PCIe Ethernet for a desktop, USB-Ethernet adapter for a laptop). Depending on the scale of your operation, even single board computers like a Raspberry Pi can work, but remember: the only ethical hardware is second hand hardware. Except for hard drives, don't buy second hand hard drives.
 
-## 2-2-1 System Requirements
+## 1.1 System Requirements
 
 There are a few factors that go into choosing the correct hardware for your project, mainly:
 
@@ -15,15 +15,15 @@ The more concurrent users you expect (people that are accessing the server at th
 
 Most well refined systems use PHP, an old and reliable programming language for web that is part of most websites on the internet today. However, since it is an old programming language, it is not very well optimized for a lot of parallel users. Most services that you might want to run on your server specify minimum system requirements, so it's probably good to read up on a few before making a choice.
 
-## 2-2-2 Picking a machine
+## 1.2 Picking a machine
 
 Basically any computer can be turned into a server, even an old smartphone! For very old or very small computers, you will have to assess if they are fast enough for what you have in mind. If you are reading this guide, any working old laptop is probably enough.
 
-Some people like to work with single board computers ([[0-1_glossary_of_terms#SBC (Single Board Computer)|SBCs]]), like Raspberry Pis. While a Raspberry Pi will reach its limits quite quickly if you plan on running several services at the same time, there are other single board computers that are much more powerful and can handle ever larger jobs. Single board computers are often relatively cheap, use very low amounts of energy, and come in a small and convenient form factor.
+Some people like to work with single board computers ([[0-1_glossary#SBC (Single Board Computer)|SBCs]]), like Raspberry Pis. While a Raspberry Pi will reach its limits quite quickly if you plan on running several services at the same time, there are other single board computers that are much more powerful and can handle ever larger jobs. Single board computers are often relatively cheap, use very low amounts of energy, and come in a small and convenient form factor.
 
 If the form factor is not important, however, we recommend using an old laptop. Due to much fewer restrictions in terms of size, even an old laptop will likely outperform a new single board computer. The built-in battery, if it is still functional, can protect against fluctuations in the power grid. The built-in screen and keyboard, if still functional, eliminate the necessity for additional peripherals during set up and allow direct interaction with the machine. Due to their portability, laptops are usually designed to be much more power efficient than desktop machines. If you or someone you know doesn't already have an old laptop that you can use, chances are you can find one [[#2-2-3 Where to get old hardware|for free or very cheap]] online.
 
-## 2-2-3 New or Used Hardware
+## 1.3 New or Used Hardware
 
 It takes a lot of energy to build computers, and buying new hardware has a big impact on the environment. Even the most energy efficient new computer will not be able to offset the amount of energy that had to be used in its production. **We strongly encourage everyone to consider used hardware wherever possible.** A used laptop will always be more environmentally friendly than a new Raspberry Pi!
 
@@ -33,7 +33,7 @@ While it's certainly possible to install Linux on an old Apple computer like an 
 
 For the purpose of this guide, we will assume that you have access to an old Windows or Linux computer, as these are much easier and cheaper to come buy than old Apple computers. If you do have an Apple computer which you want to install Linux on, there are many guides such as [this one](https://linuxnewbieguide.org/how-to-install-linux-on-a-macintosh-computer/) which will walk you through the installation process. After the installation process is complete, you should be able to follow the guides in this manual as usual.
 
-## 2-2-5 Storage
+## 1.4 Storage
 
 No matter what hardware you chose, you will often need to add additional storage, for example if you want to set up a file sharing service where each user has multiple Gigabytes or even Terabyte of storage allocated to them. But also in other cases, it's quite common to use different storage options for different purposes. A classic solution would be to use a small but fast disk to run your operating system from, and to save all the user data on a bigger, but potentially slower drive. There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.
 
@@ -73,11 +73,11 @@ While you can set up your own RAID configuration with multiple hard drives, ther
 
 **Solid State Drives** are a newer technology than HDDs that address most of their shortcomings: they are much smaller, much faster and much more durable. They are, however, also much more expensive. Unless money is not a facotr for you, it's probably not very feasible to use SSDs to store large amounts of data. SSDs are however the preferred medium to run an operating system from, as this will have a big impact on performance while requiring relatively little space. As opposed to HDDs, SSDs are probably safe to buy second hand.
 
-## 2-2-6 Network connection
+## 1.5 Network connection
 
 While it's certainly possible to run a server over Wifi, Ethernet is much faster and much more reliable. Unless you really don't have access to an Ethernet port we would always recommend you to connect your server to the internet over Ethernet. Most single board computers and Windows laptops come with Ethernet ports, if you have a computer without one, you should probably look into finding an adapter!
 
-## 2-2-7 Where to get old hardware
+## 1.6 Where to get old hardware
 
 Computers quickly lose value. Improvements in performance and capacities quickly render older machines obsolete, and computers that are older than 10 years often can't even receive updates anymore. This means that very few people would invest much money into old hardware, which keeps the prices low. This is good news for the happy self-hoster, because the requirements for self-hosting are comparatively low.
 

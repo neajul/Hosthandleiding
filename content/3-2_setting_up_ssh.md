@@ -1,4 +1,4 @@
-# 3-2 Setting up SSH
+# Setting up SSH
 
 - on server
 	- touch /boot/ssh

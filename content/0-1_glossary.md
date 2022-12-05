@@ -1,12 +1,14 @@
-# 0-2 Glossary of Terms
+# Glossary
+
+Much of this information has been taken from the simple English Wikipedia. It's a bit of an incomplete list and a work in progress.
 
 ## Booting
 
-Booting is what happens when a computer starts. This happens when the power is turned on. It is called "reboot" if it happens at other times. When you boot a computer, your processor looks for instructions in system ROM (the BIOS) and executes them. They normally 'wake up' peripheral equipment and search for the boot device. The boot device either loads the operating system or gets it from someplace else. 
+Booting is what happens when a computer starts. This happens when the power is turned on. It is called "reboot" if it happens at other times. When you boot a computer, your [[#CPU (Central Processing Unit)|processor]] looks for instructions in system ROM (Read only memory, the BIOS) and executes them. They normally wake up peripheral equipment and search for the boot device. The boot device either loads the operating system or gets it from someplace else. 
 
 ## CPU (Central Processing Unit)
 
-A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body
+A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 
 ## ARM
 

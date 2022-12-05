@@ -1,4 +1,4 @@
-# 2-4 Sofware Considerations
+# 2-3 Sofware
 
 ## 2-4-1 Containers vs. on the Metal
 - Containers vs. on the Metal

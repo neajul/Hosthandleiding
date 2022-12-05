@@ -1,6 +1,6 @@
-# 1-2 What is self-hosting
+# Hosting Yourself
 
-At this point, it's probably good to explain what a [[0-1_glossary_of_terms#Server|server]] is in a few words: A server is a computer that *serves* information to a user (or *client*) machine. It's an essential part of everything *online*—arguably, the internet is just a bunch of servers.
+At this point, it's probably good to explain what a [[0-1_glossary#Server|server]] is in a few words: A server is a computer that *serves* information to a user (or *client*) machine. It's an essential part of everything *online*—arguably, the internet is just a bunch of servers.
 
 When you visit a website, somewhere in the world there is a computer that has the website stored on it—that computer is one example of what we call a server. When you enter a URL into your browser, you are being connected to this server, and it will send you back (*serve* you) the content of the website. Your computer then displays this website in your browser, similar to the way a TV receives the signal from the TV station and renders it into an image on the screen.
 
@@ -10,7 +10,7 @@ Obviously, on a practical level things are a bit more complicated than that but 
 
 Self hosting is the opposite of that. Instead of having all your data on someone else's computer, as is the case with the cloud, it's setting up your own computer to do the same thing. At least theoretically, any computer can function as a server and while it requires some technical know-how, time and effort, it's possible to set up a small server in your own home or work place that can replace some or all of the cloud services you (and your colleagues?) use. Since you most likely don't need to serve millions of people at the same time, the hardware, software and energy requirements for this can be surprisingly low. If you want to supply file sharing, collaborative writing, video calling and a shared calendar for yourself and the people in your surroundings (let's assume this is up to 15 or 20 people), chances are that an old laptop that you or someone you have lying around would be up to the task.
 
-## 1-2-1 What are the benefits of self-hosting?
+## 2.1 What are the benefits of self-hosting?
 
 As previously mentioned, self-hosting comes with a set of ethical and practical advantages:
 
@@ -20,17 +20,17 @@ As previously mentioned, self-hosting comes with a set of ethical and practical 
 - it often allows them to build systems that are more closely adapted to their specific needs,
 - in the process, users will learn a lot about the way digital infrastructures work, making them more adapt at avoiding mistakes and fixing problems in the future,
 - It allows users to minimize their ecological footprint through lower energy usage and the recycling of old hardware,
-- It makes them less dependent on companies that are [[1-1_problems_with_the_cloud#1-1-2 Why is that a problem?|diametrically opposed to their ethical values]]
+- It makes them less dependent on companies that are [[1-1_problems_with_the_cloud#1.2 Why is that a problem?|diametrically opposed to their ethical values]]
 
-## 1-2-2 What are the challenges of self-hosting?
+## 2.2 What are the challenges of self-hosting?
 
-But nothing is perfect and life is not fair, and like everything else, self-hosting comes at a cost. The trade-off here is mostly about the time and energy that an individual or group has to spend on it (more on this in our [[1-1_problems_with_the_cloud#1-1-3 Some notes on expense|notes on expense]]).
+But nothing is perfect and life is not fair, and like everything else, self-hosting comes at a cost. The trade-off here is mostly about the time and energy that an individual or group has to spend on it (more on this in our [[1-1_problems_with_the_cloud#1.3 Some notes on expense|notes on expense]]).
 
 - Self-hosting means maintenance. Software has to be updated, hardware has to be upgraded or exchanged, issues need to be solves every once in a while. This is a commitment that you need to be aware of before deciding to self-host (parts of) your digital infrastructure.
-- While most things we describe here are really not rocket science, self-hosting always comes with a certain risk of just *fucking up*—of breaking something, accidentally deleting data, or of hardware failure. While there are [[2-4_sofware_considerations#2-4-2 The *3-2-1* Backup Rule|ways to prevent irreversable damage]], it's good practice to consider the consequences of an interruption of service before deciding to switch to self-hosting for a particular service.
+- While most things we describe here are really not rocket science, self-hosting always comes with a certain risk of just *fucking up*—of breaking something, accidentally deleting data, or of hardware failure. While there are [[2-3_sofware#2-4-2 The *3-2-1* Backup Rule|ways to prevent irreversable damage]], it's good practice to consider the consequences of an interruption of service before deciding to switch to self-hosting for a particular service.
 - While it's possible to reduce your ecological footprint through practices like self-hosting (where you can use computers that are extremely energy efficient and/or reuse old hardware), there are limits, and from a radical ecological point of view, computing is not ecologically sustainable per definition. The materials that go into the production of chipsets are extracted at considerable costs to the environment, and the amount of energy that goes into the production of a modern computer cannot never be compensated for, no matter how energy efficient it is. This is not even accounting for the fact that eventually it will probably end up in a landfill somewhere.
 
-## 1-2-3 List of things that can be replaced by self-hosting
+## 2.3 List of things that can be replaced by self-hosting
 
 The list of self-hostable services is long and ever-growing. If there is a cloud service provided by some start-up, there is probably a way of hosting something similar yourself. This includes, but is not limited to:
 

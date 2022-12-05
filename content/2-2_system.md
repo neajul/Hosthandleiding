@@ -1,4 +1,4 @@
-# 2-3 System Considerations
+# 2-2 System
 
 - What is Linux and why are we using it?
 - What are cool distributions
@@ -12,8 +12,8 @@
 
 - We recommend DietPi
 	- community, super light weight, straight forward
-	- while we recommend working with [[0-1_glossary_of_terms#Docker (software)|docker]] it comes with a lot of scripts for [[0-1_glossary_of_terms#On the Metal|on-the-metal]] installs
-	- works for most [[0-1_glossary_of_terms#SBC (Single Board Computer)|SBCs]]
+	- while we recommend working with [[0-1_glossary#Docker (software)|docker]] it comes with a lot of scripts for [[0-1_glossary#On the Metal|on-the-metal]] installs
+	- works for most [[0-1_glossary#SBC (Single Board Computer)|SBCs]]
 	- as well as old windows computers
 	- we wrote [[3-1_installing_linux|guide]] for it
 - There are many other systems that can make sense, depending on preference and situation

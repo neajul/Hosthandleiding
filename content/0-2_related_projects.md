@@ -1,5 +1,4 @@
-
-# Related texts, projects and initiatives
+# Related Projects
 
 ### [Homebrew Server Club](https://homebrewserver.club)
 
