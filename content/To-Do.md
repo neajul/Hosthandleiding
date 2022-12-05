@@ -4,10 +4,13 @@
 - [ ] finish software considerations text  
 - [ ] proof read everything  
   
-- [ ] get pdf export to work, and design it into a book  
+- [x] get pdf export to work, and design it into a book  
 - [ ] illustrations? if so, what, and how?  
 - [ ] cover page  
-- [ ] split pdf into grey and black for riso printing  
+- [ ] split pdf into grey and black for riso printing 
+- [ ] small css fixes
+	- [ ] how to deal with blockquotes
+	- [ ] add page breaks!
   
 # what needs to happen the **rest of the week**  
 

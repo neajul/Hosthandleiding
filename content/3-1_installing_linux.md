@@ -188,3 +188,10 @@ After this, the installation should begin. This might take some time. When it's 
 To run DietPi, simply unplug the flash drive you used for installing DietPi, and turn on the machine. 
 
 ==continue here==
+
+
+
+
+
+
+## setting up a raid system

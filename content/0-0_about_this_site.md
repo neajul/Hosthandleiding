@@ -4,9 +4,7 @@ So, you've heard about self-hosting. Or maybe you have come to realize that you 
 
 Maybe you're approaching this topic as an individual, or maybe you represent a small group or collective with similar ideas. Maybe you're looking for some recommendations for [[0-1_glossary#docker|docker]] images—or maybe you have no idea what that means.
 
-This publication aims to pick you up wherever it is that you are right now, and to point you in a direction where you can continue your journey towards self-hosting.  The first version has been developed by [Lukas Engelhardt](https://lukasengelhardt.net/), [Paul Bille](https://paulbille.com/) and [Ada Reinthal](https://ada.gallery/) as part of the [Artsformation](https://waag.org/en/project/artsformation/) program and funded by [Waag](https://waag.org/en/) in Amsterdam, NL.
-
-The publication has been inspired by squatting manuals, texts that have codified and politicized the process of squatting since the 1970s, and that have been openly available to all that are interested. The authors of this publication think that setting up your own server is a political act, and no so unlike the action of squatting a house to live and work in.
+This publication aims to pick you up wherever it is that you are right now, and to point you in a direction where you can continue your journey towards self-hosting.  It's inspired by squatting manuals, texts that have codified and politicized the process of squatting since the 1970s, and that have been openly available to all that are interested. The authors of this publication think that setting up your own server is a political act, and no so unlike the action of squatting a house to live and work in.
 
 The goal of this publication is to make self-hosting, a topic that comes with several technical hurdles, accessible to a more general public and beginners, while still being a useful resource to more advanced readers. No prerequisites are required from the reader.
 
@@ -14,6 +12,8 @@ The goal of this publication is to make self-hosting, a topic that comes with se
 >Today, we use more and more cloud services in our daily lives. These are often run by software companies with questionable ethical integrity. They often lock us in walled gardens and limit our agency as users. Our internet and technology usage has devastating consequences for the environment.
 >
 >Self-hosting can be a more ethical approach to digital infrastructure in your personal or professional life. The cloud is just a bunch of servers, and you can run your own server—in many cases, retired consumer hardware like an old laptop is enough! It requires some technical know-how, but most of the information is freely available and much can be learned along the way.
+
+The first version of this text has been developed by [Lukas Engelhardt](https://lukasengelhardt.net/), [Paul Bille](https://paulbille.com/) and [Ada Reinthal](https://ada.gallery/) as part of the [Artsformation](https://waag.org/en/project/artsformation/) program and funded by [Waag](https://waag.org/en/) in Amsterdam, NL. If you would like to contribute, please email info (at) lukasengelhardt (.) net
 
 ---
 # Table of Contents
@@ -34,7 +34,7 @@ The goal of this publication is to make self-hosting, a topic that comes with se
 
 1. [[2-1_hardware|Hardware]]
 2. [[2-2_system|System]]
-3. [[2-3_sofware|Software]]
+3. [[2-3_software|Software]]
 
 ## Practical Guides
 
