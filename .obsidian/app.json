@@ -1,4 +1,15 @@
 {
   "showInlineTitle": true,
-  "attachmentFolderPath": "content/x - attachments"
+  "attachmentFolderPath": "content/x - attachments",
+  "spellcheck": true,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

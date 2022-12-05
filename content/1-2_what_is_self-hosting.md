@@ -1,6 +1,6 @@
 # 1-2 What is self-hosting
 
-At this point, it's probably good to explain what a [[0-2_glossary_of_terms#Server|server]] is in a few words: A server is a computer that *serves* information to a user (or *client*) machine. It's an essential part of everything *online*—arguably, the internet is just a bunch of servers.
+At this point, it's probably good to explain what a [[0-1_glossary_of_terms#Server|server]] is in a few words: A server is a computer that *serves* information to a user (or *client*) machine. It's an essential part of everything *online*—arguably, the internet is just a bunch of servers.
 
 When you visit a website, somewhere in the world there is a computer that has the website stored on it—that computer is one example of what we call a server. When you enter a URL into your browser, you are being connected to this server, and it will send you back (*serve* you) the content of the website. Your computer then displays this website in your browser, similar to the way a TV receives the signal from the TV station and renders it into an image on the screen.
 

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e238827ed9f61526",
+        "id": "7b21b0c01d74d222",
         "type": "tabs",
         "children": [
           {
-            "id": "b05bcb36b95a0f88",
+            "id": "41ecaabd711feb2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1-2_what_is_self-hosting.md",
+                "file": "content/0-1_glossary_of_terms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15cd42628575cd39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/0-1_glossary_of_terms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/1-2_what_is_self-hosting.md",
+                "file": "content/0-1_glossary_of_terms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/1-2_what_is_self-hosting.md",
+                "file": "content/0-1_glossary_of_terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/1-2_what_is_self-hosting.md"
+                "file": "content/0-1_glossary_of_terms.md"
               }
             }
           }
@@ -136,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b05bcb36b95a0f88",
+  "active": "91e4afcf6b9eed0c",
   "lastOpenFiles": [
-    "content/2-2_hardware_considerations.md",
-    "content/2-4_sofware_considerations.md",
+    "content/0-2_related_texts_projects_and initiatives.md",
+    "content/1-1_problems_with_the_cloud.md",
+    "content/3-1_installing_linux.md",
     "content/2-5_privacy_considerations.md",
+    "content/2-4_sofware_considerations.md",
     "content/2-3_system_considerations.md",
-    "content/0-2_glossary_of_terms.md",
-    "content/0-0 introduction.md",
-    "content/0-3_related_texts_projects_and initiatives.md",
-    "content/0-1_about_this_publication.md",
-    "content/3-5_going_live.md",
-    "content/3-2_setting_up_ssh.md"
+    "content/2-2_hardware_considerations.md",
+    "content/2-1_preparation_and_what_to_expect.md",
+    "content/1-2_what_is_self-hosting.md",
+    "content/0-1_glossary_of_terms.md"
   ]
 }

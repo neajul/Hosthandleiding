@@ -18,7 +18,7 @@ In order to install DietPi you need a few things:
 
 ### Downloading DietPi (SBC)
 
-There are [many variations](https://dietpi.com/) of DietPi available on the official website, depending on what kind of machine you are planning to install it on. There are versions for most common [[0-2_glossary_of_terms#SBC (Single Board Computer)|SBCs (Single Board Computers)]], which is one of the main advantages of DietPi. If you are using an SBC, find the appropriate version of DietPi on their website and download it.
+There are [many variations](https://dietpi.com/) of DietPi available on the official website, depending on what kind of machine you are planning to install it on. There are versions for most common [[0-1_glossary_of_terms#SBC (Single Board Computer)|SBCs (Single Board Computers)]], which is one of the main advantages of DietPi. If you are using an SBC, find the appropriate version of DietPi on their website and download it.
 
 ### Downloading DietPi for a native (non-SBC) PC
 
@@ -31,7 +31,7 @@ Basically, if your computer is newer, chances are bigger that it's UEFI based. T
 If the computer you want to use is running a version of **Windows** older than Windows 11, you can check whether your machine is UEFI or BIOS based by pressing `⊞ Win` + `R` to open the Windows Run dialog, type in the command `msinfo32`, and then press `Enter`. This will open the System Information window. Find the entry `BIOS mode`. If it's set to `UEFI` you are using UEFI, if it's set to `Legacy` you are using BIOS.
 
 #### Distinguishing UEFI/BIOS on Linux
-If you are already running Linux, the easiest way to find out if you are running UEFI or BIOS is to check for a folder called `/sys/firmware/efi`. One way to do this is to open a [[0-2_glossary_of_terms#Command Line Interface (CLI)|terminal]] and to enter the command `ls /sys/firmware/efi`. If you are using BIOS, the folder will be missing. If the folder exists, you are running UEFI.
+If you are already running Linux, the easiest way to find out if you are running UEFI or BIOS is to check for a folder called `/sys/firmware/efi`. One way to do this is to open a [[0-1_glossary_of_terms#Command Line Interface (CLI)|terminal]] and to enter the command `ls /sys/firmware/efi`. If you are using BIOS, the folder will be missing. If the folder exists, you are running UEFI.
 
 Once you know whether your computer is UEFI based or BIOS based, download the corresponding version from the [official website](https://dietpi.com/) to your **working computer**.
 
@@ -44,7 +44,7 @@ If your **working computer** runs **Windows** you can use [7-Zip](https://www.7-
 If your **working computer** runs **macOS** you can use [The Unarchiver](https://wakaba.c3.cx/s/apps/unarchiver.html). 
 
 #### Extracting 7z on Linux
-If your **working computer** runs **Linux** you can use p7zip, the command line version of 7-Zip. On Debian and Ubuntu-based systems, you can simply open a [[0-2_glossary_of_terms#Command Line Interface (CLI)|terminal]] and type:
+If your **working computer** runs **Linux** you can use p7zip, the command line version of 7-Zip. On Debian and Ubuntu-based systems, you can simply open a [[0-1_glossary_of_terms#Command Line Interface (CLI)|terminal]] and type:
 
 ```
 $ sudo apt install p7zip
@@ -85,7 +85,7 @@ If your working computer is running **Windows**, you can use the free tool [Rufu
 > ⚠️ This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
 
 #### Flashing for a native PC on Linux or macOS
-Sadly, if your **working computer** runs **Linux** or **macOS**, things get a little bit more difficult. For reasons that are related to the distinction between BIOS and UEFI, balenaEtcher is not a good tool for flashing the USB stick for a UEFI-based native PC and the DietPi Instructions specifically advise against using it. However, the recommended alternative [Rufus](https://rufus.ie/en/) is only available for windows. To get around this, we will use a few commands in the [[0-2_glossary_of_terms#Command Line Interface (CLI)|terminal]].
+Sadly, if your **working computer** runs **Linux** or **macOS**, things get a little bit more difficult. For reasons that are related to the distinction between BIOS and UEFI, balenaEtcher is not a good tool for flashing the USB stick for a UEFI-based native PC and the DietPi Instructions specifically advise against using it. However, the recommended alternative [Rufus](https://rufus.ie/en/) is only available for windows. To get around this, we will use a few commands in the [[0-1_glossary_of_terms#Command Line Interface (CLI)|terminal]].
 
 The first thing we need to do is identify and format the USB stick from the terminal. Start by opening a new terminal window. This part differs slightly from macOS to Linux:
 
@@ -115,7 +115,7 @@ There might be more entries in this list, depending on your configuration. We se
 
 > ⚠️ In the following steps, we will format the USB stick. This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
 
-Before flashing the USB drive, we need to make sure that it's in the correct [[0-2_glossary_of_terms#File Systems|file system]], in this case FAT32. This is not something you need to understand when following along to this guide, however it's probably something that is useful to understand on at least a basic level in the long run! The easiest way to do this is to format the drive. First, we will use the `fdisk`  command to delete all the data on the device.
+Before flashing the USB drive, we need to make sure that it's in the correct [[0-1_glossary_of_terms#File Systems|file system]], in this case FAT32. This is not something you need to understand when following along to this guide, however it's probably something that is useful to understand on at least a basic level in the long run! The easiest way to do this is to format the drive. First, we will use the `fdisk`  command to delete all the data on the device.
 
 ```
 sudo fdisk [DEVICEPATH]
@@ -170,7 +170,7 @@ much of the part above will probably also work on macOS!
 ### Installing DietPi
 Once your flash drive is ...flashed, your **working computer** has done its job, and we will start working with your **target computer**.
 
-Start by plugging your flashed flash drive into your **target computer**. If you are using an external screen and keyboard for this installation, plug them in as well. Then [[0-2_glossary_of_terms#Booting|boot up]] the **target computer**.
+Start by plugging your flashed flash drive into your **target computer**. If you are using an external screen and keyboard for this installation, plug them in as well. Then [[0-1_glossary_of_terms#Booting|boot up]] the **target computer**.
 
 If your **target computer** currently has a running operating system, you might be presented with a prompt asking you to select a boot device. This just means that you should select from where the computer should take the operating system that it is about to start running—in this case you should identify and (using the arrow keys) select the flash drive you just prepared, then press `ENTER`.
 
