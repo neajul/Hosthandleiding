@@ -24,19 +24,19 @@ The goal of this publication is to make self-hosting, a topic that comes with se
 2. [[0-1_glossary|Glossary]]
 3. [[0-2_related_projects|Related Projects]]
 
-## Why Self Host
+## What is Self-Hosting
 
 1. [[1-1_problems_with_the_cloud|Problems with the Cloud]]
 2. [[1-2_hosting_yourself|Hosting Yourself]]
 3. [[1-3_managing_expectations|Managing Expactations]]
 
-## Hardware and Software Considerations
+## Preparation
 
 1. [[2-1_hardware|Hardware]]
 2. [[2-2_system|System]]
 3. [[2-3_sofware|Software]]
 
-## How to Self-Host
+## Practical Guides
 
 1. [[3-1_installing_linux|Installing Linux]]
 2. [[3-2_setting_up_ssh|Setting up SSH]]
