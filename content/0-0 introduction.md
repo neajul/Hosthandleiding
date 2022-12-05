@@ -72,3 +72,36 @@ The goal of this publication is to make self-hosting, a topic that comes with se
 
 - [[4-1_usecases_and_accounts|4-1 Use cases and accounts]]
 - [[4-2_security_culture_and_concerns|4-2 Security culture and concerns]]
+
+
+---
+
+
+### Relevant Information
+
+1. About this Site
+2. Glossary
+3. Related Projects
+
+### What is Self-Hosting
+
+1. Problems with the Cloud
+2. Hosting Yourself
+3. Managing Expectations
+
+### Preparation
+
+1. Hardware
+2. System
+3. Software
+
+### Practical Guides
+
+1. Installing Linux
+2. Setting up SSH
+3. Setting up Docker
+
+### Self Hosting IRL
+
+1. Stories
+2. Security Culture

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/0-1_glossary_of_terms.md",
+                "file": "content/0-0 introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/0-1_glossary_of_terms.md",
+                "file": "content/0-0 introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/0-1_glossary_of_terms.md",
+                "file": "content/0-0 introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/0-1_glossary_of_terms.md"
+                "file": "content/0-0 introduction.md"
               }
             }
           }
@@ -150,17 +148,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "91e4afcf6b9eed0c",
+  "active": "971b4d65ebc05107",
   "lastOpenFiles": [
+    "content/1-2_what_is_self-hosting.md",
+    "content/0-0 introduction.md",
+    "content/0-1_glossary_of_terms.md",
+    "content/2-1_preparation_and_what_to_expect.md",
     "content/0-2_related_texts_projects_and initiatives.md",
     "content/1-1_problems_with_the_cloud.md",
     "content/3-1_installing_linux.md",
     "content/2-5_privacy_considerations.md",
     "content/2-4_sofware_considerations.md",
-    "content/2-3_system_considerations.md",
-    "content/2-2_hardware_considerations.md",
-    "content/2-1_preparation_and_what_to_expect.md",
-    "content/1-2_what_is_self-hosting.md",
-    "content/0-1_glossary_of_terms.md"
+    "content/2-3_system_considerations.md"
   ]
 }
