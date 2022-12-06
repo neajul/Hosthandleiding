@@ -1,11 +1,11 @@
 # what needs to happen **today**:  
   
-- [ ] finish system considerations text  
-- [ ] finish software considerations text  
+- [x] finish system considerations text  
+- [x] finish software considerations text  
 - [ ] proof read everything  
   
 - [x] get pdf export to work, and design it into a book  
-- [ ] illustrations? if so, what, and how?  
+~~- [ ] illustrations? if so, what, and how?~~  
 - [ ] cover page  
 - [ ] split pdf into grey and black for riso printing 
 - [ ] small css fixes
