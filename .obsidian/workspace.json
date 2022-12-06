@@ -13,20 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/0-0 introduction.md",
+                "file": "content/2-2_system.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15cd42628575cd39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/0-1_glossary_of_terms.md",
-                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/0-0 introduction.md",
+                "file": "content/2-2_system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/0-0 introduction.md",
+                "file": "content/2-2_system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/0-0 introduction.md"
+                "file": "content/2-2_system.md"
               }
             }
           }
@@ -145,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "971b4d65ebc05107",
+  "active": "41ecaabd711feb2f",
   "lastOpenFiles": [
-    "content/1-2_what_is_self-hosting.md",
-    "content/0-0 introduction.md",
-    "content/0-1_glossary_of_terms.md",
-    "content/2-1_preparation_and_what_to_expect.md",
-    "content/0-2_related_texts_projects_and initiatives.md",
-    "content/1-1_problems_with_the_cloud.md",
+    "content/2-3_software.md",
+    "content/2-2_system.md",
+    "content/2-1_hardware.md",
+    "content/1-3_managing_expectations.md",
     "content/3-1_installing_linux.md",
-    "content/2-5_privacy_considerations.md",
-    "content/2-4_sofware_considerations.md",
-    "content/2-3_system_considerations.md"
+    "content/To-Do.md",
+    "content/noob-questions.md",
+    "content/4-2_security_culture_and_concerns.md",
+    "content/4-1_usecases_and_accounts.md",
+    "content/3-6_awesome_list_awesome_software.md"
   ]
 }

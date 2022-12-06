@@ -14,7 +14,7 @@ There are many advantages to using Linux over other operating systems, but while
 - It's secure
 - It's stable
 - It runs on basically any kind of hardware
-- It's customizable: due to its open source character, there are countless *distros*, each with different features and focuses, and optimized for different scenarios.
+- It's customizable: due to its open source character, there are countless *distros*, each with different flavors, features and focuses, and optimized for different scenarios.
 - It's lightweight: as opposed to a consumer PC, which should be good at all kinds of things, a server is usually meant to do only one thing, but do that thing really well. Linux gives you the possibility to build an operating system with a focus on one specific task without wasting resources on anything else.
 
 ## 2.2 Headlessness

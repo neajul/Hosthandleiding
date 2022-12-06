@@ -13,7 +13,9 @@ There are a few factors that go into choosing the correct hardware for your proj
 
 The more concurrent users you expect (people that are accessing the server at the same time) the better your hardware needs to be. That being said, most web apps are not very compute intensive and rather rely on having a lot of RAM and the ability to process a lot of requests in parallel—CPUs with multiple cores are definitely beneficial here.
 
-Most well refined systems use PHP, an old and reliable programming language for web that is part of most websites on the internet today. However, since it is an old programming language, it is not very well optimized for a lot of parallel users. Most services that you might want to run on your server specify minimum system requirements, so it's probably good to read up on a few before making a choice.
+Most well refined systems use PHP, an old and reliable programming language for the web that is part of most websites on the internet today. However, since it is an old programming language, it is not very well optimized for a lot of parallel users. Most services that you might want to run on your server specify minimum system requirements, so it's probably good to read up on a few before making a choice.
+
+==could run through a use case example here in the future==
 
 ## 1.2 Picking a machine
 
@@ -35,9 +37,9 @@ For the purpose of this guide, we will assume that you have access to an old Win
 
 ## 1.4 Storage
 
-No matter what hardware you chose, you will often need to add additional storage, for example if you want to set up a file sharing service where each user has multiple Gigabytes or even Terabyte of storage allocated to them. But also in other cases, it's quite common to use different storage options for different purposes. A classic solution would be to use a small but fast disk to run your operating system from, and to save all the user data on a bigger, but potentially slower drive. There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.
+No matter what hardware you chose, you will often need to add additional storage, for example if you want to set up a file sharing service where each user has multiple Gigabytes or even Terabyte of storage allocated to them. But also in other cases, it's quite common to use different storage options for different purposes. A classic solution would be to use a small but fast disk to run your operating system from, and to save all the user data on a bigger, but potentially slower drive. ==There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.==
 
-Most computers come with some built in storage on which the system is installed, but depending on what you want to do, this might not be enough to run a server. There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.
+Most computers come with some built in storage on which the system is installed, but depending on what you want to do, this might not be enough to run a server. ==There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.==
 
 ### Types of storage
 
@@ -50,7 +52,7 @@ The main types of storage are Hard Disk Drives(HDD) and Solid State Drives (SSD)
 
 Hard Disk Drives have been around for a long time. Simply put, they operate similar to a CD or DVD, with all data stored on a physically spinning disk. They are the slowest, type of storage, but also the cheapest. They are very big in comparison to other solutions and not very durable: Hard drives have a limited amount of read/write operations they can do before they will inevitably die, and when they do, they probably cannot be fixed without spending a considerable amount of money. Most servers are always on and especially when you have multiple users, this means that your hard drives will undergo a lot of read/write operations. **The question is not *if* an HDD will fail, but *when*.** 
 
-There are server-grade HDDs which are more resistant to wear, but cost more money. For the scope of self-hosting, those are probably not required, though. Even under continuous use, a new HDD should last a few years, and there are setups to prevent data loss even in case of an HDD drying.
+There are server-grade HDDs which are more resistant to wear, but cost more money. For the scope of self-hosting, those are probably not required, though. Even under continuous use, a new HDD should last a few years, and there are setups to prevent data loss even in case of an HDD dying.
 
 > [!WARNING]
 > While we recommend buying used hardware wherever possible, we don't recommend this with HDDs. 
@@ -61,7 +63,7 @@ There are server-grade HDDs which are more resistant to wear, but cost more mone
 
 Nothing good lasts forever, and that is especially true for HDDs. In anticipation of hard drive failure and data loss, you probably don't want to save all your data on one HDD. Fixing or recovering data from an old hard disk is magnitudes more expensive than a new disk, and not guaranteed to work. Instead, it's recommended to set up what is called a RAID configuration.
 
-In layman's terms, this means that multiple hard drives are set up in such a way that every piece of data is present on multiple disks, so that if one of the drives fails, no data is lost, and it can simply be replaced. The most simple RAID configuration is RAID-0, which is two hard drives that are exact mirrors of each other. Every time data is written to one of the drives, it's written to the other one as well. If one of the drives fails, you can simply exchange it without any data lost.
+This means that multiple hard drives are set up in such a way that every piece of data is present on multiple disks, so that if one of the drives fails, no data is lost, and it can simply be replaced. The most simple RAID configuration is RAID-0, which is two hard drives that are exact mirrors of each other. Every time data is written to one of the drives, it's written to the other one as well. If one of the drives fails, you can simply exchange it without any data lost.
 
 Obviously, this doubles the cost of storage, as you will have to buy double the amount of hard disks. But, especially if you plan to set something up for multiple users with the goal of maintaining service for a long period of time, you should seriously consider this. Also, (at the point of writing) two HDDs are still cheaper than the equivalent amount of storage on an SSD.
 
@@ -71,7 +73,7 @@ While you can set up your own RAID configuration with multiple hard drives, ther
 
 #### Solid State Drives (SSD)
 
-**Solid State Drives** are a newer technology than HDDs that address most of their shortcomings: they are much smaller, much faster and much more durable. They are, however, also much more expensive. Unless money is not a facotr for you, it's probably not very feasible to use SSDs to store large amounts of data. SSDs are however the preferred medium to run an operating system from, as this will have a big impact on performance while requiring relatively little space. As opposed to HDDs, SSDs are probably safe to buy second hand.
+**Solid State Drives** are a newer technology than HDDs that address most of their shortcomings: they are much smaller, much faster and much more durable. They are, however, also much more expensive. Unless money is not a factor for you, it's probably not very feasible to use SSDs to store large amounts of data. SSDs are however the preferred medium to run an operating system from, as this will have a big impact on performance while requiring relatively little space. As opposed to HDDs, SSDs are probably safe to buy second hand.
 
 ## 1.5 Network connection
 

@@ -30,8 +30,8 @@ Most cloud services give the users little to no control about the way their file
 - users can't easily switch to another service and take their documents, files and data with them,
 - by excluding users from the way things work behind the scenes, they are kept dependent on these services and unable to set things up by themselves,
 - users have to pay monthly fees in order to be allowed to keep accessing their data (see: [[0-1_glossary#Software as a Service (SaaS)|Software as a Service (SaaS)]]),
-- if there is an issue (like lost or accidentally deleted data), there is no customer service to turn to,
-- users have to trust that any sensitive data is handled appropriately and have no control over security measures taken by these companies. Large corporations are hacked all the time, data is leaked all the time.
+- ==if there is an issue (like lost or accidentally deleted data), there is no customer service to turn to, (true but not sure if there were it wouldn't really help anyways)==
+- users have to trust that any sensitive data is handled appropriately and have no control over security measures taken by these companies. Large corporations have large amounts of data, which makes them a target. They get hacked all the time, data is leaked all the time.
 - As was the case with Twitter in 2022, companies can change owners, business models or Terms of Service within a few weeks, potentially limiting access to users' data or forcing them into new payment plans or dependencies. There is no stability in these (often very young!) companies.
 
 ## 1.3 Some notes on expense

@@ -1,6 +1,6 @@
 # Glossary
 
-Much of this information has been taken from the simple English Wikipedia. It's a bit of an incomplete list and a work in progress.
+Most of the information on this page has been taken from the simple English Wikipedia. It's a bit of an incomplete list and a work in progress.
 
 ## Booting
 

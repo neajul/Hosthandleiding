@@ -4,7 +4,7 @@
 
 When using a consumer PC, installing software has become so easy we barely notice it. You either open an installer and click yes—yes—yes until the installation is complete (without reading the Terms and Conditions, of course), or you simply drag an icon into another icon, or you just click `install`.
 
-But under the hood what is happening is much more complicated than that, and as sysadmins that's where we operate: under the hood. This is where docker comes in and make our lives better. But let's start by explaining what exactly the problem is that docker solves.
+But under the hood what is happening is a bit more complicated than that, and as ==sysadmins that's where we operate: under the hood.== This is where docker comes in and make our lives better. But let's start by explaining what exactly the problem is that docker solves.
 
 ## 3.1 The problem: dependencies
 
