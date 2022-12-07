@@ -10,15 +10,16 @@ What a lot of us are not always aware of is that this seamless experience is ena
 
 As mentioned above, this infrastructure is incredibly expensive from an energy usage/environmental point of view. Even though many data centers around the world are run with 100% renewable energies, in many cases they use so much power, that there simply is no more green energy left for the rest of the power grid, which remains powered through the use of fossil fuels.
 
-As mentioned above, large parts of *the cloud* are run by large corporations like Amazon, Apple, Google and the like. Companies (and monopolies) with histories of 
+As mentioned above, large parts of `the cloud` are run by large corporations like Amazon, Apple, Google and the like. Companies (and monopolies) with histories of 
 
-- worker exploitation in the global south,
-- of supply chains that include child labor and extraction from indigenous lands,
-- of producing abhorrent amounts of e-waste that ends up on land fills in the global south,
-- of spying on their users to sell them ads,
-- of sharing this information with governments,
-- of profiting from political division and right wing radicalization,
-- of intentionally making their products addictive,
+- [worker exploitation](https://www.theverge.com/2021/5/10/22428899/apple-suppliers-china-uyghur-forced-labor-report) [in the global south](https://ethical.net/technology/the-slavery-supported-the-device-in-your-pocket/),
+- of supply chains that include [child labor](https://www.amnesty.org/en/wp-content/uploads/2021/05/AFR6231832016ENGLISH.pdf) and extraction from [indigenous lands](https://www.psychiatryredefined.org/lithium-mining-indigenous-populations/),
+- of producing abhorrent amounts of[ e-waste](https://childrenshealthdefense.org/defender/electronic-waste-digital-dumps-global-south/) that ends up on land fills in the global south,
+- of spying on their users [to sell them ads](https://medium.com/@HumaneTech_/technology-is-downgrading-humanity-lets-reverse-that-trend-now-893fb9f6e580),
+- of sharing this information with [governments](https://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded),
+- of profiting from [political division](https://www.theguardian.com/technology/2021/oct/22/facebook-whistleblower-hate-speech-illegal-report) and right wing radicalization,
+- of [intentionally making their products addictive](https://mediax.stanford.edu/research-projects/scs-fogg/),
+- of locking their users in [incomprehensible terms and conditions](https://tosdr.org/).
 - and of being aware of all of the above while not changing any of it.
 
 We urgently need to ask ourselves if we really want one of these companies to facilitate the infrastructure on which we run our businesses, collectives, foundations, associations or individual practices. But besides these ethical considerations, there is the more practical issue of being dependent on them.
@@ -30,7 +31,7 @@ Most cloud services give the users little to no control about the way their file
 - users can't easily switch to another service and take their documents, files and data with them,
 - by excluding users from the way things work behind the scenes, they are kept dependent on these services and unable to set things up by themselves,
 - users have to pay monthly fees in order to be allowed to keep accessing their data (see: [[0-1_glossary#Software as a Service (SaaS)|Software as a Service (SaaS)]]),
-- ==if there is an issue (like lost or accidentally deleted data), there is no customer service to turn to, (true but not sure if there were it wouldn't really help anyways)==
+- if there is an issue (like lost or accidentally deleted data), there is no customer service to turn to,
 - users have to trust that any sensitive data is handled appropriately and have no control over security measures taken by these companies. Large corporations have large amounts of data, which makes them a target. They get hacked all the time, data is leaked all the time.
 - As was the case with Twitter in 2022, companies can change owners, business models or Terms of Service within a few weeks, potentially limiting access to users' data or forcing them into new payment plans or dependencies. There is no stability in these (often very young!) companies.
 

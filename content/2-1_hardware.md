@@ -15,8 +15,6 @@ The more concurrent users you expect (people that are accessing the server at th
 
 Most well refined systems use PHP, an old and reliable programming language for the web that is part of most websites on the internet today. However, since it is an old programming language, it is not very well optimized for a lot of parallel users. Most services that you might want to run on your server specify minimum system requirements, so it's probably good to read up on a few before making a choice.
 
-==could run through a use case example here in the future==
-
 ## 1.2 Picking a machine
 
 Basically any computer can be turned into a server, even an old smartphone! For very old or very small computers, you will have to assess if they are fast enough for what you have in mind. If you are reading this guide, any working old laptop is probably enough.
@@ -37,13 +35,11 @@ For the purpose of this guide, we will assume that you have access to an old Win
 
 ## 1.4 Storage
 
-No matter what hardware you chose, you will often need to add additional storage, for example if you want to set up a file sharing service where each user has multiple Gigabytes or even Terabyte of storage allocated to them. But also in other cases, it's quite common to use different storage options for different purposes. A classic solution would be to use a small but fast disk to run your operating system from, and to save all the user data on a bigger, but potentially slower drive. ==There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.==
-
-Most computers come with some built in storage on which the system is installed, but depending on what you want to do, this might not be enough to run a server. ==There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.==
+No matter what hardware you chose, you will often need to add additional storage, for example if you want to set up a file sharing service where each user has multiple Gigabytes or even Terabyte of storage allocated to them. But also in other cases, it's quite common to use different storage options for different purposes. 
+A classic solution would be to use a small but fast disk to run your operating system from, and to save all the user data on a bigger, but potentially slower drive. There are multiple considerations here, but mainly it boils down to **speed**, **capacity**, **durability** and **expense**.
 
 ### Types of storage
 
->**TL;DR;**
 >HDDs are very cheap but slow and not durable. SSDs are fast and reliable, but expensive. In most cases, a hybrid solution is the most efficient: run the system on a small SSD that is fast and reliable, and store all data on multiple large and cheap HDDs.
 
 The main types of storage are Hard Disk Drives(HDD) and Solid State Drives (SSD), though some single board computers also work with other storage mediums like **flash drives** or **SD cards**. While those are ok for testing and tinkering, it is not recommended to run a server that uses an SD card as data storage—SD cards deteriorate with every read/write operation, and they **will** fail eventually, leading to downtime and potentially data loss. It is possible to use an SD card to boot the system from, but to set it to read-only, and store all relevant data on another volume, but this is something that we will not cover in this guide as it is a bit of an edge case.
@@ -54,9 +50,8 @@ Hard Disk Drives have been around for a long time. Simply put, they operate simi
 
 There are server-grade HDDs which are more resistant to wear, but cost more money. For the scope of self-hosting, those are probably not required, though. Even under continuous use, a new HDD should last a few years, and there are setups to prevent data loss even in case of an HDD dying.
 
-> [!WARNING]
 > While we recommend buying used hardware wherever possible, we don't recommend this with HDDs. 
-> 
+
 > The longer a hard drive is in use, the more likely it is to fail. With used hard drives, it's difficult to know how much life they have left in them. There is also a chance that the second hard drives you find online have been used in crypto mining at some point, further increasing the likelihood of failure in the near future.
 
 ##### RAID configurations

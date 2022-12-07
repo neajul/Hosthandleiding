@@ -8,12 +8,13 @@ This publication aims to pick you up wherever it is that you are right now, and 
 
 The goal of this publication is to make self-hosting, a topic that comes with several technical hurdles, accessible to a more general public and beginners, while still being a useful resource to more advanced readers. No prerequisites are required from the reader.
 
->**TL;DR**
 >Today, we use more and more cloud services in our daily lives. These are often run by software companies with questionable ethical integrity. They often lock us in walled gardens and limit our agency as users. Our internet and technology usage has devastating consequences for the environment.
 >
 >Self-hosting can be a more ethical approach to digital infrastructure in your personal or professional life. The cloud is just a bunch of servers, and you can run your own server—in many cases, retired consumer hardware like an old laptop is enough! It requires some technical know-how, but most of the information is freely available and much can be learned along the way.
 
-The first version of this text has been developed by [Lukas Engelhardt](https://lukasengelhardt.net/), [Paul Bille](https://paulbille.com/) and [Ada Reinthal](https://ada.gallery/) as part of the [Artsformation](https://waag.org/en/project/artsformation/) program and funded by [Waag](https://waag.org/en/) in Amsterdam, NL. If you would like to contribute, please email info (at) lukasengelhardt (.) net
+The first version of this text has been developed by [Lukas Engelhardt](https://lukasengelhardt.net/) with [Paul Bille](https://paulbille.com/) and [Ada Reinthal](https://ada.gallery/) as part of the [Artsformation](https://waag.org/en/project/artsformation/) program on occasion of the [Digital Shadows](https://waag.org/en/event/oba-expo-digital-shadows/) exhibition and funded by [Waag](https://waag.org/en/) in Amsterdam, NL. A print version that can be generated from this website was riso printed by [Tjobo Kho](http://tjobokho.com/) in Amsterdam.
+
+This text is a work in progress, and we would like to open it up to others. If you would like to contribute to this wiki, please email info (at) lukasengelhardt (.) net for acess.
 
 ---
 # Table of Contents
