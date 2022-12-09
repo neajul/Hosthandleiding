@@ -40,10 +40,10 @@
 **Friday**
 - [x] stickers
 - [x] write a bit more/clean up!
-- [ ] fix the guides
-- [ ] change text so it fits website
-- [ ] check pages missing from TOC
-- [ ] convert everything to wiki
+- [x] fix the guides
+- [x] change text so it fits website
+- [x] check pages missing from TOC
+- [x] convert everything to wiki
 - [ ] upload to live page
 - [ ] make links for next prev
-- [ ] include link for printing book in main text
+- [x] include link for printing book in main text
