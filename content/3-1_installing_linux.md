@@ -2,21 +2,19 @@
 
 There are [[2-2_system|many different Linux distributions]], which all come with advantages and disadvantages. There is not really a blanket solution for which system you should choose. However, the best way to get into it is to just start, and learn along the way. 
 
-For this guide, we recommend installing [DietPi](https://dietpi.com/). Originally developed as an operating system for the Raspberry Pi, it now supports most Single Board Computers, as well as native PCs. It's very light-weight, meaning that it doesn't take much space and doesn't use a lot of resources like processing power and RAM, ensuring that it will run fine even on slower machines. If you prefer to use another Linux distribution feel free to skip this section and continue at [[3-2_setting_up_ssh]].
+For this guide, we recommend installing [DietPi](https://dietpi.com/). Originally developed as an operating system for the Raspberry Pi, it now supports most Single Board Computers, as well as native PCs. It's very light-weight, meaning that it doesn't take much space and doesn't use a lot of resources like processing power and RAM, ensuring that it will run fine even on slower machines. Since we are recommening to use [[0-1_glossary#Docker (software)|docker]], which works a little bit like a small operating system in a box and doesn't have many requirements outside of that, we generally want our operating system to take up as little resources as possible. If you prefer to use another Linux distribution, feel free to skip this section and continue at [[3-2_setting_up_ssh]].
 
 ## 1.1 Installing DietPi
 
-> ℹ️ Much of this manual is taken from the official [DietPi Install Guide](https://dietpi.com/docs/install/), but it has been edited to accommodate a larger number of users.
-
 In order to install DietPi you need a few things:
 
-1. A **working computer** with internet access (from which to prepare the installation)
-2. An *empty or over-writeable* USB drive of minimum 2 GB capacity (to install from)
-3. A (non-Apple) [[2-1_hardware|target computer]] on which you want to install DietPi. For this guide, we will also assume that you have access to a screen and a keyboard as well (if you are using an old laptop, the internal screen and keyboard suffice).
+1. A **working computer** with internet access (as in: a computer to work from (also one that works)) from which to prepare the installation
+2. A (non-Apple*) **target computer** on which you want to install DietPi. For this guide, we will also assume that you have access to a screen and a keyboard as well (if you are using an old laptop, the internal screen and keyboard suffice). You can read more about hardware choices [here]([[2-1_hardware|target computer]] ).
+3. An *empty* USB drive of minimum 2 GB capacity (to install from)
 
-> ⚠️ For now, this guide will not include a tutorial on how to install Linux on an old Apple computer. You can read more about this [[2-1_hardware#2.2.2a Apple|here]], but the TLDR; is that Apple has made it increasingly difficult to install anything except macOS on their machines. If an old Mac is all you got, there are many tutorial such as this one that you can follow and continue at [[3-2_setting_up_ssh]].
+\* For now, this guide will not include a tutorial on how to install Linux on an old Apple computer. You can read more about this [[2-1_hardware#2.2.2a Apple|here]], but the *tl;dr;* is that Apple has made it increasingly difficult to install anything except macOS on their machines. If an old Mac is all you got, there are many tutorial such as [this](https://linuxnewbieguide.org/how-to-install-linux-on-a-macintosh-computer/) one that you can. Ultimately, your choice in operating system should not change the process in the further guides dramatically.
 
-### Downloading DietPi (SBC)
+### Downloading DietPi for single board coimputers
 
 There are [many variations](https://dietpi.com/) of DietPi available on the official website, depending on what kind of machine you are planning to install it on. There are versions for most common [[0-1_glossary#SBC (Single Board Computer)|SBCs (Single Board Computers)]], which is one of the main advantages of DietPi. If you are using an SBC, find the appropriate version of DietPi on their website and download it.
 
@@ -24,7 +22,7 @@ There are [many variations](https://dietpi.com/) of DietPi available on the offi
 
 If you plan to install DietPi on a *regular* (non-SBC) computer, like an old laptop, you first need to find out whether it's BIOS based or UEFI based. It's not really important to understand what this means in order to continue, it's just about downloading the correct installer.
 
-#### Distinguishing UEFI/BIOS on Windows 11
+#### Distinguishing UEFI/BIOS on Windows 11+
 Basically, if your computer is newer, chances are bigger that it's UEFI based. The older it is, the more likely it's BIOS based. If it runs Windows 11, you are running UEFI for sure since it doesn't support BIOS.
 
 #### Distinguishing UEFI/BIOS on Windows 10 and older
@@ -63,12 +61,12 @@ After all of this, you should be left with an *image file*. If you don't know wh
 ### Flashing the Image
 We now want to take this image file, and put it on a flash drive like a USB stick or SD card, which we can then use to install Linux. This process is called *flashing*.
 
-### Flashing if your target computer is an SBC
+### Flashing if your target computer is a single board computer
 There are several tools to do this. If your **target computer** is a single board computer, or a native PC that's BIOS-based, the easiest way is probably [balenaEtcher](https://www.balena.io/etcher/), which is free and available for Windows, macOS and Linux. 
 
 It's pretty straight forward: after downloading balenaEtcher to your **working computer**, plug in your flash drive and open balenaEtcher. Select `Flash from File`, then locate the installer image you extracted in the previous step (it should be an `.iso` file). Then select your flash drive as a target and click `Flash!`
 
-> ⚠️ This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
+> This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
 
 ### Flashing if your target computer is a native PC
 If your target computer is a BIOS-based native PC, you can use balenaEtcher as explained in the previous step. However, if your target computer is UEFI-based, things are slightly more complicated.
@@ -85,11 +83,11 @@ If your working computer is running **Windows**, you can use the free tool [Rufu
 > ⚠️ This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
 
 #### Flashing for a native PC on Linux or macOS
-Sadly, if your **working computer** runs **Linux** or **macOS**, things get a little bit more difficult. For reasons that are related to the distinction between BIOS and UEFI, balenaEtcher is not a good tool for flashing the USB stick for a UEFI-based native PC and the DietPi Instructions specifically advise against using it. However, the recommended alternative [Rufus](https://rufus.ie/en/) is only available for windows. To get around this, we will use a few commands in the [[0-1_glossary#Command Line Interface (CLI)|terminal]].
+Sadly, if your **working computer** runs **Linux** or **macOS**, things get a little bit more difficult. For reasons that are related to the distinction between BIOS and UEFI, balenaEtcher is not a good tool for flashing the USB stick for a UEFI-based native PC and the DietPi Instructions specifically advise against using it. However, the recommended alternative [Rufus](https://rufus.ie/en/) is only available for Windows. This is not a problem *per se*, but it will require us to start using the [[0-1_glossary#Command Line Interface (CLI)|terminal]].
 
 The first thing we need to do is identify and format the USB stick from the terminal. Start by opening a new terminal window. This part differs slightly from macOS to Linux:
 
-##### Identifying and formatting your flash drive on Linux
+##### Identifying and flashing your flash drive on Linux
 On **Linux**, use the command `lsblk` to list all *block devices*. It's a bit complicated to explain what a block device is, so we will not go into it, and it's not important for following this guide. This will present you with a list of all block devices connected to your computer. It might look a bit confusing at first, but don't worry. 
 
 Most likely you are probably looking for a device that's called sd*a*, sd*b*, sd*c* or something like that. The easiest way to identify your USB stick in this list is probably through its size. 
@@ -111,9 +109,9 @@ sdb      8:16   0   2.5G  0 disk
 
 There might be more entries in this list, depending on your configuration. We see here that there is a device called `sda` that has a capacity of 232GB, and a device called `sdb` with a **capacity of 2.5GB**. This tells us that the name of our USB stick is `sdb`, which means the *device path* is `dev/sdb`
 
-> ⚠️ Be careful when identifying your USB stick, you don't want to mess this up as you might end up formatting the wrong disk later. If you're unsure, unplug your USB stick and run the command again. By comparing the two outputs, you should be able to tell the name of your USB stick!
+> Be careful when identifying your USB stick, you don't want to mess this up as you might end up formatting the wrong disk later. If you're unsure, unplug your USB stick and run the command again. By comparing the two outputs, you should be able to tell the name of your USB stick!
 
-> ⚠️ In the following steps, we will format the USB stick. This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
+> In the following steps, we will format the USB stick. This will erase all the data on the selected target. Double check if you have selected the correct target drive and if there are **really** no files on there that you don't want to lose.
 
 Before flashing the USB drive, we need to make sure that it's in the correct [[0-1_glossary#File Systems|file system]], in this case FAT32. This is not something you need to understand when following along to this guide, however it's probably something that is useful to understand on at least a basic level in the long run! The easiest way to do this is to format the drive. First, we will use the `fdisk`  command to delete all the data on the device.
 
@@ -146,26 +144,9 @@ umount [DEVICEPATH]
 sudo mkfs -t vfat [DEVICEPATH]
 ```
 
+##### Identifying and flashing your flash drive on macOS
 
-
-
-
-
-==↓↓↓ this part is not done ↓↓↓==
-
-much of the part above will probably also work on macOS!
-
-##### Identifying your flash drive on macOS
-
-==↑↑↑ this part is not done ↑↑↑==
-
-
-
-
-
-
-
-
+> The process is very similar to doing it on Linux, but we still need to write this section :)
 
 ### Installing DietPi
 Once your flash drive is ...flashed, your **working computer** has done its job, and we will start working with your **target computer**.
@@ -185,13 +166,77 @@ Next you will be asked to select the hard drive that you want to install DietPi 
 After this, the installation should begin. This might take some time. When it's done, the system should shut down by itself.
 
 ### Running DietPi for the first time
-To run DietPi, simply unplug the flash drive you used for installing DietPi, and turn on the machine. 
+To run DietPi, simply unplug the flash drive you used for installing DietPi, and turn on the machine. Depending on your **target computer** you might have to press a button like `esc`, `F10`, `F2`, `F12`, `F1` or `del` (this depends on the manufacturer). You need to select your USB stick as a boot device.
 
-==continue here==
+> This part is underdeveloped and could be expanded on. The following is taken from the official  [DietPi Install Guide](https://dietpi.com/docs/install/) for installing the system, however it requires previous knowledge, so it would be nice to to explain in more detail for newer users!
 
+During the initial boot, the following dialog may appear to boot from the USB stick:
 
+![Bootloader menu screenshot](https://dietpi.com/docs/assets/images/dietpi-uefi-boot.jpg)
 
+After booting the graphics selection dialog appears:
 
+![Clonezilla main menu screenshot](https://dietpi.com/docs/assets/images/dietpi-uefi-boot-graphic.jpg)
 
+You can select the default settings. In case of problems, please select “Safe graphic settings”.
 
-## setting up a raid system
+Once this step is completed, you will able to select a different keyboard. If necessary, change your keyboard settings and go through the appropriate dialogues.
+
+Then the installation process begins with the help of the wonderful Clonezilla tool.
+
+Select the image file to be installed on the target PCs harddisk. Normally you should only see one single option:
+
+![Clonezilla source image selection screenshot](https://dietpi.com/docs/assets/images/dietpi-boot-clonezilla.jpg)
+
+After this, you have to select the target PCs harddisk where your DietPi shall be installed. In this example there is only one harddisk present:
+
+![Clonezilla target drive selection screenshot](https://dietpi.com/docs/assets/images/dietpi-boot-clonezilla-run.jpg)
+
+After this, the installation process starts with several steps, e.g. showing the process of the image copying:
+
+![Clonezilla processing screenshot](https://dietpi.com/docs/assets/images/dietpi-boot-partclone.jpg)
+
+These steps take some time, be patient! Otherwise buy an SSD. :-) At the end the system executes a shutdown.
+
+To setup the WiFi, you have to change the network settings matching to your environment:
+
+1.  Open the file `dietpi-wifi.txt` and set `aWIFI_SSID[0]` to the name of your WiFi network.
+2.  In the same file `dietpi-wifi.txt`, set `aWIFI_KEY[0]` to the password of your WiFi network.
+3.  Save and close the files
+
+You need to set these values before you boot up the PC for the first time (initial boot).
+
+For the first boot up of your PC disconnect your USB stick from the target PC and power on the PC to login and execute the first boot procedure.
+
+## 1.2 First logon on DietPi
+
+The hostname of the system will be: **DietPi**. You might change the name before the first boot within the configuration file `dietpi.txt`.
+
+After the system has booted up, you can continue following the instructions on the screen, or connect via network:
+
+- If you have a keyboard and a monitor connected to your system you login via this console.
+- If you have a headless system without keyboard and monitor attached, you can use an **SSH** client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to connect from a remote system. The SSH server [Dropbear](https://dietpi.com/docs/software/ssh/#dropbear) is installed and enabled by default on DietPi.
+- Most SBCs alternatively allow to connect a serial console via **UART**, which is by default enabled on DietPi as well.
+
+A login prompt will appear. Use the initial credentials:
+
+-   login: `root`
+-   password: `dietpi` (resp. the one you set via `dietpi.txt`)
+
+DietPi will then immediately begin to search for and install updated software packages, which will take some time to complete.
+
+Once the packages have been updated, DietPi will ask you to confirm whether you would like to enable user analytics.
+
+The default DietPi password is public, so you’ll be asked to change this at the next stage for both the `root` and `dietpi` user accounts. Select OK and hit Enter, then provide your password (twice) to confirm.
+
+You can change the password again later by typing `passwd` at the terminal or also via the command line script `dietpi-config` (within the “Security options”).
+
+![dietpi-password](https://dietpi.com/docs/assets/images/dietpi-password-01.jpg)
+
+The base installation of DietPi is minimal **by design**, allowing you to choose what software you want to install and use: Just run `dietpi-software` and install [**DietPi Optimised Software**](https://dietpi.com/docs/software/).  
+
+You can return to the **DietPi-Software** tool to make further changes at any time by typing `dietpi-software` at the terminal, or enter `dietpi-launcher` and select **DietPi-Software** tool.
+
+If you want to make further changes to your DietPi configuration, you can run `dietpi-launcher` at the terminal to view all the available DietPi tools, including **DietPi-Update** to update your device and **DietPi-Backup** to back up your device.
+
+For more details, check [DietPi Tools](https://dietpi.com/docs/dietpi_tools/) section.

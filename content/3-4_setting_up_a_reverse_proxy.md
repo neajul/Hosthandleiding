@@ -1,6 +1,5 @@
 # Setting up a Reverse Proxy
-- swag (preconfigured set & forget) v nginx-proxy-manager (convenient web interface) ((recommended))
-	- if only using linuxserver.io containers that have preconfigured swag configs, use swag, for a more general use case and having a webinterface use nginx-proxy-manager
+
 [we get the quick config from here](https://nginxproxymanager.com/guide/#quick-setup)
 
 ```sh

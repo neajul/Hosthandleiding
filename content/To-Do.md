@@ -19,20 +19,31 @@
 - [x] mobile doesn't work at all right now  
 - [ ] next prev links
 **- [ ] WRITE THE GUIDES**  
-- [ ] go live/connect to domain
+- [x] go live/connect to domain
 - [x] FAVICON
 - [x] set wiki to private
 
-- [ ] fix cables
-- [ ] mount servers to wall
+- [x] fix cables
+- [x] mount servers to wall
 
 **wednesday**:
-- [ ] website design
-- [ ] write
-- [ ] finish all the servers
+- [x] website design
+- [x] write
+- [x] finish all the servers
 
 **thursday**:
-- [ ] cable install
-- [ ] stickers
-- [ ] mount servers
-- [ ] evening: write more guides!
+- [x] cable install
+- [x] stickers
+- [x] mount servers
+- [x] evening: write more guides!
+
+**Friday**
+- [x] stickers
+- [x] write a bit more/clean up!
+- [ ] fix the guides
+- [ ] change text so it fits website
+- [ ] check pages missing from TOC
+- [ ] convert everything to wiki
+- [ ] upload to live page
+- [ ] make links for next prev
+- [ ] include link for printing book in main text
